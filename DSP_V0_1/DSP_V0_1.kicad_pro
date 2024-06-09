@@ -576,7 +576,9 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Memory/RAM_A0": "RAM_A"
+    },
     "netclass_patterns": [
       {
         "netclass": "RAM_A",
