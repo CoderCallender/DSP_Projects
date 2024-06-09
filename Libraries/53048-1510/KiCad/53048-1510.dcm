@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 53048-1510
+D Molex PicoBlade 53048, 15 Way, 1 Row, Right Angle PCB Header
+K
+F https://www.molex.com/pdm_docs/sd/530481510_sd.pdf
+$ENDCMP
+#
+#End Doc Library

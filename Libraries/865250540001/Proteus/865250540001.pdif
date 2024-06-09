@@ -1,0 +1,112 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "865250540001"
+   (description "Wurth Elektronik 2.2uF 35 V dc Aluminium Electrolytic Capacitor, WCAP-ASNP Series 2000h 5.5 (Dia.) x 3.85mm")
+   (family "CAP")
+   (package "CAPAE430X550N")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/865250540001.pdf")
+   (attribute "Geometry.Height" "5.5mm")
+   (attribute "Mouser Part Number" "710-865250540001")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865250540001?qs=0KOYDY2FL28%2FudTYhFk9zw%3D%3D")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "865250540001")
+   (gate
+    (symbol "865250540001")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "865250540001"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPAE430X550N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.45 2.75)
+      (pt 3.45 2.75)
+      (pt 3.45 -2.75)
+      (pt -3.45 -2.75)
+      (pt -3.45 2.75))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.15 2.15)
+      (pt -1.075 2.15)
+      (pt -2.15 1.075)
+      (pt -2.15 -1.075)
+      (pt -1.075 -2.15)
+      (pt 2.15 -2.15)
+      (pt 2.15 2.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.95 2.15)
+      (pt 2.15 2.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.075 -2.15)
+      (pt 2.15 -2.15))))
+   (leg 1 (pt -1.65 0) (padstack 0))
+   (leg 2 (pt 1.65 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.8 2.6 0 0 0))
+   )
+   (model "865250540001.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

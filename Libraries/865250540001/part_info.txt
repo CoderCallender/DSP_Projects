@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=865250540001
+PartCategory=Capacitor
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=1.1
+Released=2021-01-31 10:00:41
+Downloaded=2024-04-14 20:25:20
+3D=Y

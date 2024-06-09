@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP718BSNADJT1G
+D 300 MA LOW IQ, WIDE INPUT
+K
+F http://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS42S16800F-6BL
+D DRAM 128M 8Mx16 166Mhz SDR SDRAM, 3.3V
+K
+F 
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_1431133"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-13-09:07:52)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "PESD3V3Z1BSFYL")
+)
+
+
+(pinAssign "ECS_1431133"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-13-09:07:52)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "K1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "K2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1431133")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PESD3V3Z1BSFYL")
+)
+
+
+(part "PESD3V3Z1BSFYL"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-13-09:07:52)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "PESD3V3Z1BSFYL")
+    (pinAssignRef "ECS_1431133")
+    (interface
+        (port "1" (symbPinId 1) (portName "K1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "K2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "D")
+    (property "description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode")
+    (property "Mouser_Part_Number" "771-PESD3V3Z1BSFYL")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf")
+)
+
+

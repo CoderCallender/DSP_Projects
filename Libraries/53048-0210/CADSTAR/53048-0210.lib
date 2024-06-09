@@ -1,0 +1,16 @@
+.53048-0210 :1 ;2 way through board PCB 90deg header Molex PICOBLADE Series, Series Number 53048, 1.25mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 1A
+SHDRRA2W35P0X125_1X2_425X550X350P
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 53048-0210
+~!Mouser Part Number (538-53048-0210)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/53048-0210?qs=o4r9IV%252BgZWMoVY43HmKPkg%3D%3D)
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (53048-0210)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/530481010_sd.pdf)
+~!Height (3.5mm)
+~!3D_Model (53048-0210)
+"53048-0210"
+1.1!U 2.1!U 

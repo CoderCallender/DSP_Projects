@@ -1,0 +1,16 @@
+.53048-0310 :1 ;Headers & Wire Housings RIGHT ANGLE HDR 3P
+SHDRRA3W35P0X125_1X3_550X550X350P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN 53048-0310
+~!Mouser Part Number (538-53048-0310)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/53048-0310?qs=zXrbR4Jv0OfUlEeVnlaifA%3D%3D)
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (53048-0310)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/530481010_sd.pdf)
+~!Height (3.5mm)
+~!3D_Model (53048-0310)
+"53048-0310"
+1.1!U 2.1!U 3.1!U 

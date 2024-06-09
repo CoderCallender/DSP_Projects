@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=53048-1510
+PartCategory=Connector
+PackageCategory=Other
+PinCount=15
+Version=1.2
+Released=2021-02-12 11:38:43
+Downloaded=2024-06-04 22:08:59
+3D=Y

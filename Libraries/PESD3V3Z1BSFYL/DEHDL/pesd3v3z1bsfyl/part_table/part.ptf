@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PESD3V3Z1BSFYL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Nexperia", "PESD3V3Z1BSFYL" (!) = "", "PMEG3005AESFYL", "Other", "771-PESD3V3Z1BSFYL", "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D", "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode", "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
+END_PART
+
+END.
