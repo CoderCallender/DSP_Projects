@@ -334,255 +334,6 @@
 				)
 			)
 		)
-		(symbol "Chase_Diode:PESD3V3Z1BSFYL"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PESD3V3Z1BSFYL"
-				(at 5.08 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "PMEG3005AESFYL"
-				(at 15.24 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-				(at 15.24 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-				(at 7.62 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 15.24 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-				(at 15.24 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-				(at 15.24 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 15.24 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-				(at 15.24 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PESD3V3Z1BSFYL_1_1"
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.032) (xy 6.604 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.905) (xy 7.62 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.636 2.54) (xy 7.62 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -2455,9 +2206,10 @@
 				)
 			)
 		)
-		(symbol "Diode:ESD5Zxx"
+		(symbol "Diode:ESD9B3.3ST5G"
 			(pin_numbers hide)
-			(pin_names hide)
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2469,7 +2221,7 @@
 					)
 				)
 			)
-			(property "Value" "ESD5Zxx"
+			(property "Value" "ESD9B3.3ST5G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2477,16 +2229,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(property "Footprint" "Diode_SMD:D_SOD-923"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2495,7 +2238,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ESD Protection Diode, SOD-523"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2504,7 +2247,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "esd tvs unidirectional diode"
+			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2513,7 +2256,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D?SOD?523*"
+			(property "ki_keywords" "diode TVS ESD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2522,7 +2265,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESD5Zxx_0_1"
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD9B3.3ST5G_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -2537,10 +2289,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2549,10 +2301,22 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2560,11 +2324,11 @@
 					)
 				)
 			)
-			(symbol "ESD5Zxx_1_1"
+			(symbol "ESD9B3.3ST5G_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2582,7 +2346,164 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A"
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:ESD9B5.0ST5G"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9B5.0ST5G"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD9B5.0ST5G_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9B5.0ST5G_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3758,7 +3679,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 67.31) (xy 387.35 60.96)
+			(xy 387.35 59.69) (xy 387.35 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3838,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 116.84) (xy 496.57 110.49)
+			(xy 496.57 109.22) (xy 496.57 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3875,16 +3796,6 @@
 			(type default)
 		)
 		(uuid "366534bd-46a7-45b5-a4be-ff970f2f141a")
-	)
-	(wire
-		(pts
-			(xy 120.65 273.05) (xy 120.65 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b4d90d-8089-41a0-b4c3-bdea1a56e826")
 	)
 	(wire
 		(pts
@@ -3928,16 +3839,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 142.24) (xy 387.35 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41ceea87-1285-4c56-b90d-6844fe451049")
-	)
-	(wire
-		(pts
 			(xy 387.35 198.12) (xy 419.1 198.12)
 		)
 		(stroke
@@ -3948,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 67.31) (xy 497.84 60.96)
+			(xy 497.84 59.69) (xy 497.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3958,17 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 199.39) (xy 495.3 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43dcea07-326a-47a1-b11c-7031ea236b8b")
-	)
-	(wire
-		(pts
-			(xy 387.35 45.72) (xy 387.35 50.8)
+			(xy 387.35 45.72) (xy 387.35 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3988,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 219.71) (xy 387.35 213.36)
+			(xy 387.35 212.09) (xy 387.35 219.71)
 		)
 		(stroke
 			(width 0)
@@ -4048,17 +3939,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 220.98) (xy 495.3 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5003b1d6-e07b-4540-9a6f-95a7e0290450")
-	)
-	(wire
-		(pts
-			(xy 387.35 116.84) (xy 387.35 110.49)
+			(xy 387.35 109.22) (xy 387.35 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4108,6 +3989,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 199.39) (xy 495.3 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576d651c-9455-4870-b81f-177c978b89a6")
+	)
+	(wire
+		(pts
 			(xy 529.59 43.18) (xy 524.51 43.18)
 		)
 		(stroke
@@ -4118,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 163.83) (xy 387.35 157.48)
+			(xy 387.35 156.21) (xy 387.35 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4255,6 +4146,16 @@
 			(type default)
 		)
 		(uuid "6b8a28cc-4647-43b5-9ae8-3252d617c221")
+	)
+	(wire
+		(pts
+			(xy 497.84 45.72) (xy 497.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb2882c-477d-4c50-95be-a4d0dc8abd05")
 	)
 	(wire
 		(pts
@@ -4398,6 +4299,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 157.48) (xy 495.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b74be3d-f471-4ae1-8747-f9e373db5bc4")
+	)
+	(wire
+		(pts
 			(xy 478.79 45.72) (xy 482.6 45.72)
 		)
 		(stroke
@@ -4415,6 +4326,16 @@
 			(type default)
 		)
 		(uuid "7cb5c5ce-caeb-4e2f-8031-eb1b12d7dc52")
+	)
+	(wire
+		(pts
+			(xy 387.35 142.24) (xy 387.35 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d405c2b-a841-44c4-b1f5-92e3dc26cdbb")
 	)
 	(wire
 		(pts
@@ -4438,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 337.82) (xy 119.38 342.9)
+			(xy 119.38 336.55) (xy 119.38 342.9)
 		)
 		(stroke
 			(width 0)
@@ -4458,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 143.51) (xy 495.3 148.59)
+			(xy 495.3 143.51) (xy 495.3 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4575,16 +4496,6 @@
 			(type default)
 		)
 		(uuid "93d27ded-83b7-444a-8193-8f11ec1e8535")
-	)
-	(wire
-		(pts
-			(xy 497.84 45.72) (xy 497.84 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e12f68-ad03-40e1-8748-677be5d6ee5f")
 	)
 	(wire
 		(pts
@@ -4718,6 +4629,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 271.78) (xy 120.65 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5658bf3-b3c2-4503-9ea5-5d03086dd98b")
+	)
+	(wire
+		(pts
 			(xy 119.38 121.92) (xy 125.73 121.92)
 		)
 		(stroke
@@ -4748,7 +4669,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 198.12) (xy 387.35 203.2)
+			(xy 387.35 198.12) (xy 387.35 204.47)
 		)
 		(stroke
 			(width 0)
@@ -4865,6 +4786,16 @@
 			(type default)
 		)
 		(uuid "b9863ca5-077b-40e4-b429-5a1315a4d2fe")
+	)
+	(wire
+		(pts
+			(xy 495.3 213.36) (xy 495.3 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2ca4a9-32e3-4753-bb85-1f030c205956")
 	)
 	(wire
 		(pts
@@ -5015,16 +4946,6 @@
 			(type default)
 		)
 		(uuid "cc4e38ad-ba2d-4c1d-b5a1-82395e9da5cc")
-	)
-	(wire
-		(pts
-			(xy 496.57 95.25) (xy 496.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc7089e1-0788-4b1c-b135-ecc55217c9f9")
 	)
 	(wire
 		(pts
@@ -5188,6 +5109,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 95.25) (xy 496.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02463dc-da8b-4a93-83f7-73f1fde5d4af")
+	)
+	(wire
+		(pts
 			(xy 477.52 95.25) (xy 477.52 102.87)
 		)
 		(stroke
@@ -5198,23 +5129,13 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 95.25) (xy 387.35 100.33)
+			(xy 387.35 95.25) (xy 387.35 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e408ace3-5e15-48c1-887e-1e0275008e39")
-	)
-	(wire
-		(pts
-			(xy 495.3 165.1) (xy 495.3 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49edf6c-b2d1-4640-aa6e-7ccaea113bf9")
 	)
 	(wire
 		(pts
@@ -5258,7 +5179,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 323.85) (xy 119.38 327.66)
+			(xy 119.38 323.85) (xy 119.38 328.93)
 		)
 		(stroke
 			(width 0)
@@ -5308,7 +5229,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 259.08) (xy 120.65 262.89)
+			(xy 120.65 259.08) (xy 120.65 264.16)
 		)
 		(stroke
 			(width 0)
@@ -5395,16 +5316,6 @@
 			(type default)
 		)
 		(uuid "ff70b834-eab7-4193-8e36-6536851a8819")
-	)
-	(text "Check ESD diode order code\n"
-		(exclude_from_sim no)
-		(at 147.32 58.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b3016ee9-cfcc-43e0-8dc3-a12d939b0a45")
 	)
 	(hierarchical_label "GPIO9"
 		(shape bidirectional)
@@ -5695,127 +5606,6 @@
 		(uuid "fa907c75-1233-4a3c-adc4-0683eec62cd6")
 	)
 	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 387.35 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01e9a04c-922e-4ade-8b87-fc0e6bcfa0b3")
-		(property "Reference" "D4"
-			(at 390.906 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 392.684 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 481 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 581 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 387.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 781 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 881 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 981 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 1081 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 1181 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b771835b-b598-443b-8da0-15cf31d167b7")
-		)
-		(pin "2"
-			(uuid "cb362b16-8ae8-4692-97d6-ae997b5ddecf")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 476.25 153.67 0)
 		(unit 1)
@@ -5842,7 +5632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 476.25 153.67 0)
 			(effects
 				(font
@@ -5986,16 +5776,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 120.65 275.59 90)
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 387.35 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0b8b96f9-8861-4067-9b6a-20a2816f2359")
-		(property "Reference" "D22"
-			(at 124.206 271.526 0)
+		(fields_autoplaced yes)
+		(uuid "08d74beb-0f50-4e3a-9427-6f9a4cfb7442")
+		(property "Reference" "D8"
+			(at 389.89 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,8 +5794,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 125.984 258.826 0)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 389.89 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,28 +5803,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.3 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 314.3 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 120.65 267.97 0)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 387.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,66 +5812,34 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 514.3 260.35 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 387.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 614.3 260.35 0)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 387.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 714.3 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 814.3 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 914.3 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f254f12c-6ca3-4ba0-9e07-6eff4a9a4148")
 		)
 		(pin "2"
-			(uuid "8d83b71c-1deb-48de-a0e2-8af9ab1aa10f")
+			(uuid "a2e8e155-5e7b-4ed1-b0b3-8020316aeb46")
+		)
+		(pin "1"
+			(uuid "a954d26a-61dc-409c-9afe-ee8a398f0463")
 		)
 		(instances
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D22")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6232,127 +5971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 387.35 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10f17a3a-d864-46be-97bc-d4f678ed2f3d")
-		(property "Reference" "D12"
-			(at 390.906 211.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 392.684 199.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 481 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 581 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 387.35 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 781 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 881 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 981 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 1081 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 1181 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0646cee6-0600-4028-b3e9-19c531e75a14")
-		)
-		(pin "2"
-			(uuid "8569d705-f932-4af2-bd37-edf075a42e51")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 482.6 143.51 90)
 		(unit 1)
@@ -6378,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 482.6 143.51 0)
 			(effects
 				(font
@@ -6447,7 +6065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 476.25 209.55 0)
 			(effects
 				(font
@@ -6617,7 +6235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.3 152.4 0)
 			(effects
 				(font
@@ -6827,16 +6445,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 495.3 161.29 90)
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 495.3 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2873d3cb-2fa7-40ca-b906-5589c61b6edd")
-		(property "Reference" "D11"
-			(at 498.856 157.226 0)
+		(fields_autoplaced yes)
+		(uuid "28e447e8-9e66-4158-977c-3edff6d104cc")
+		(property "Reference" "D10"
+			(at 497.84 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,8 +6463,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 500.634 144.526 0)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 497.84 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,27 +6472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 588.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 688.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 495.3 153.67 0)
 			(effects
 				(font
@@ -6882,66 +6481,34 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 888.95 146.05 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 495.3 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 988.95 146.05 0)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 495.3 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 1088.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 1188.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 1288.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a97e98a-19fc-4136-a0eb-eb77ddcba4c8")
 		)
 		(pin "2"
-			(uuid "a0d9443b-9753-44f3-a4fe-842d85505d23")
+			(uuid "d350e670-c204-410c-8962-680ceb35fdf2")
+		)
+		(pin "1"
+			(uuid "f8109171-b981-4653-b1a8-aa3a24580ecb")
 		)
 		(instances
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7241,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 149.86 118.11 0)
 			(effects
 				(font
@@ -7513,127 +7080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 387.35 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4047cc9c-6026-4354-9439-4018700676b4")
-		(property "Reference" "D7"
-			(at 390.906 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 392.684 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 481 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 581 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 387.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 781 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 881 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 981 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 1081 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 1181 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be27528e-fd9d-47c9-89d9-146d644f9084")
-		)
-		(pin "2"
-			(uuid "38d2a71c-60d1-47cb-b4c8-701064d2cb98")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 414.02 223.52 0)
 		(unit 1)
@@ -7891,127 +7337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 495.3 217.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bc41fca-2ab7-4934-b2fd-51995e9f81e4")
-		(property "Reference" "D13"
-			(at 498.856 213.106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 500.634 200.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 588.95 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 688.95 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 495.3 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 888.95 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 988.95 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 1088.95 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 1188.95 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 1288.95 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64f36c02-b019-4354-85b5-b5e084b80320")
-		)
-		(pin "2"
-			(uuid "64adf884-628b-4f2f-ae0e-7cce5ffbf288")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 485.14 45.72 90)
 		(unit 1)
@@ -8037,7 +7362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 485.14 45.72 0)
 			(effects
 				(font
@@ -8074,127 +7399,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 496.57 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c802117-244c-4236-86c3-0bfde486228c")
-		(property "Reference" "D8"
-			(at 500.126 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 501.904 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 590.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 690.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 496.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 890.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 990.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 1090.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 1190.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 1290.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1492ecd4-a2f1-47f6-9241-4f211a095455")
-		)
-		(pin "2"
-			(uuid "18ae9ec7-f496-4c0e-b661-c543cdce77c6")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8491,7 +7695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.3 105.41 0)
 			(effects
 				(font
@@ -8563,6 +7767,76 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 120.65 267.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eab395a-1b15-42db-9ffd-151c5e73e6ea")
+		(property "Reference" "D13"
+			(at 123.19 266.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 123.19 269.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 120.65 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 120.65 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 120.65 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ef133aa-3b48-4a2e-a0ab-a63d1d5e34e6")
+		)
+		(pin "1"
+			(uuid "d358ef4d-959c-4210-8053-5ec9a14c8fde")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8661,7 +7935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 477.52 105.41 0)
 			(effects
 				(font
@@ -8832,7 +8106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 106.68 313.69 0)
 			(effects
 				(font
@@ -8875,43 +8149,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 133.35 88.9 270)
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 496.57 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "66859dd1-4d37-438a-b0c7-0b9375ec7a9e")
-		(property "Reference" "D21"
-			(at 136.144 94.742 0)
+		(fields_autoplaced yes)
+		(uuid "64508c3d-27da-4e93-aaa3-3a5478f7919c")
+		(property "Reference" "D5"
+			(at 499.11 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "ESD5Z5.0T1G/T5G"
-			(at 137.922 81.28 0)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 499.11 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 128.905 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 133.35 88.9 0)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 496.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,8 +8185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 133.35 88.9 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 496.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,16 +8194,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2f605f5d-4745-4f81-93c9-82152b799bfd")
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 496.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9a4b593d-6719-43ab-9431-ae29289271b8")
+			(uuid "83e18439-1d5a-45ea-b880-48c58c276c65")
+		)
+		(pin "1"
+			(uuid "2a830da1-e4c0-4899-9bc9-c9aa5cd776e4")
 		)
 		(instances
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D21")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8969,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 483.87 95.25 0)
 			(effects
 				(font
@@ -9169,7 +8444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 374.65 95.25 0)
 			(effects
 				(font
@@ -9206,127 +8481,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 387.35 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aebb079-44b8-4ea0-be11-2fa947261314")
-		(property "Reference" "D10"
-			(at 390.906 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 392.684 143.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 481 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 581 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 387.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 781 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 881 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 981 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 1081 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 1181 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "504d8a91-5e99-4c6f-95f6-9e1527097c4f")
-		)
-		(pin "2"
-			(uuid "7e25ac90-c6d1-41cd-ad56-8c500d3bce7b")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -9399,6 +8553,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 495.3 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7556b6ef-8eb8-42db-8002-a7ac0c737356")
+		(property "Reference" "D11"
+			(at 497.84 208.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 497.84 210.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 495.3 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 495.3 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 495.3 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55363028-e568-4426-8d1d-7a23e74f7ddb")
+		)
+		(pin "1"
+			(uuid "a10a9408-defc-4eba-a6d6-17c22e9bebf1")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 107.95 248.92 0)
 		(unit 1)
@@ -9426,7 +8650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 107.95 248.92 0)
 			(effects
 				(font
@@ -9560,7 +8784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 374.65 45.72 0)
 			(effects
 				(font
@@ -9597,6 +8821,75 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B5.0ST5G")
+		(at 133.35 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4a7417-d2ce-44b5-8023-7c134e5aa3a3")
+		(property "Reference" "D21"
+			(at 136.144 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B5.0ST5G"
+			(at 138.176 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48630d58-0565-492f-9029-590d556471d7")
+		)
+		(pin "1"
+			(uuid "4def10a8-bd7e-486d-b38d-5ec743e844c4")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -9885,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 374.65 142.24 0)
 			(effects
 				(font
@@ -10115,6 +9408,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 119.38 332.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a65d88-e688-4808-9a7a-8b93e87b7b0c")
+		(property "Reference" "D22"
+			(at 121.92 331.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 121.92 334.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 119.38 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 119.38 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 119.38 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae0a8d8f-f418-46f2-9fd6-7c1a894689a1")
+		)
+		(pin "1"
+			(uuid "8bc2e49c-dad3-4b97-87fe-166933870e09")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 521.97 137.16 0)
 		(unit 1)
@@ -10306,248 +9669,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 119.38 340.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0021d52-d0a2-4432-a2be-3a8ceeff30d3")
-		(property "Reference" "D24"
-			(at 122.936 336.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 124.714 323.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.03 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 313.03 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 119.38 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 513.03 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 613.03 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 713.03 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 813.03 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 913.03 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e211212-853b-4cf9-8bad-c8fdea2fd218")
-		)
-		(pin "2"
-			(uuid "f2e57080-db28-4aa7-b256-2c7493d76ef7")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chase_Diode:PESD3V3Z1BSFYL")
-		(at 497.84 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4a1aa01-78e7-44d5-93ca-521b1fe69a4e")
-		(property "Reference" "D5"
-			(at 501.396 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Z1BSFYL"
-			(at 503.174 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 591.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3Z1BSF.pdf"
-			(at 691.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD3V3Z1BSF - Extremely low capacitance bidirectional ESD protection diode"
-			(at 497.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 891.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Z1BSFYL"
-			(at 991.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3Z1BSFYL?qs=%252BEew9%252B0nqrB3Csg8iRki7Q%3D%3D"
-			(at 1091.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 1191.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD3V3Z1BSFYL"
-			(at 1291.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a841016-0047-4e7c-9654-7b386f813f6b")
-		)
-		(pin "2"
-			(uuid "14ef28bd-5e85-4d31-8d2d-2f4c507cef41")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 414.02 120.65 0)
 		(unit 1)
@@ -10614,6 +9735,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 387.35 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab166626-ec68-496c-85fc-9cb8d29d95e1")
+		(property "Reference" "D25"
+			(at 389.89 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 389.89 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 387.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 387.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 387.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "266504d0-135b-4e72-a8cd-97d9ed74c50d")
+		)
+		(pin "1"
+			(uuid "b9b3ac34-0080-4c7e-929e-1da038ef12c4")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 368.3 208.28 0)
 		(unit 1)
@@ -10640,7 +9831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.3 208.28 0)
 			(effects
 				(font
@@ -10778,6 +9969,76 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 387.35 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3aaff4a-0f3b-4f14-81dd-88abd3254b6e")
+		(property "Reference" "D7"
+			(at 389.89 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 389.89 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 387.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 387.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 387.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "571e615c-0b57-4322-a53b-35b81be2c560")
+		)
+		(pin "1"
+			(uuid "cd7a47aa-3011-4783-a3f8-6ca05d53d041")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10934,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 374.65 198.12 0)
 			(effects
 				(font
@@ -11294,7 +10555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.3 55.88 0)
 			(effects
 				(font
@@ -11768,6 +11029,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 497.84 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d46364ff-0049-4b40-b680-d4cd9ff9000b")
+		(property "Reference" "D4"
+			(at 500.38 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 500.38 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 497.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 497.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 497.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f7f1b0e-f0d7-4cd1-a476-70d8a757f50d")
+		)
+		(pin "1"
+			(uuid "bc3fd553-e5f9-4ac2-ba5c-118bfc2bc4f5")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 387.35 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de867fa8-2215-4a51-b8af-6ab2755dd5e0")
+		(property "Reference" "D12"
+			(at 389.89 207.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 389.89 209.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 387.35 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 387.35 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 387.35 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a14b6ae-42f8-421c-901f-c5140990f07c")
+		)
+		(pin "1"
+			(uuid "c816e7f0-b8f7-4a4b-a92c-2bf2a9cda10f")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 478.79 55.88 0)
 		(unit 1)
@@ -11794,7 +11195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 478.79 55.88 0)
 			(effects
 				(font
@@ -12021,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -12221,7 +11622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 482.6 199.39 0)
 			(effects
 				(font
