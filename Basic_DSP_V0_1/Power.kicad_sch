@@ -2300,6 +2300,12 @@
 		(uuid "715b15fb-442b-470e-ab88-30d13105c459")
 	)
 	(junction
+		(at 170.18 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7948de5c-4c8b-4e6d-a2f3-246f10b33e67")
+	)
+	(junction
 		(at 186.69 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2364,6 +2370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d96ed765-13fb-466f-b881-16dee4f41a69")
+	)
+	(junction
+		(at 173.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd76d7c3-a23e-4804-ae91-238ff3086b35")
 	)
 	(junction
 		(at 201.93 205.74)
@@ -2456,6 +2468,16 @@
 			(type default)
 		)
 		(uuid "15a3c381-f42b-4553-8739-785cc1c70126")
+	)
+	(wire
+		(pts
+			(xy 173.99 109.22) (xy 173.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15efd63d-4b24-4e55-ae91-671231e4f64e")
 	)
 	(wire
 		(pts
@@ -2589,6 +2611,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 80.01) (xy 186.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c174a5c-5fe4-4783-9382-10b196f61a8f")
+	)
+	(wire
+		(pts
 			(xy 275.59 80.01) (xy 275.59 85.09)
 		)
 		(stroke
@@ -2696,6 +2728,16 @@
 			(type default)
 		)
 		(uuid "58826287-eb34-4fff-a405-e42eaa090d82")
+	)
+	(wire
+		(pts
+			(xy 170.18 194.31) (xy 170.18 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58bd920a-2c2f-4d42-afdb-84ca1bbcbfe5")
 	)
 	(wire
 		(pts
@@ -2869,6 +2911,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 115.57) (xy 186.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86935f47-5541-43e5-ad4f-2f689b1ad8b0")
+	)
+	(wire
+		(pts
 			(xy 167.64 80.01) (xy 170.18 80.01)
 		)
 		(stroke
@@ -2886,6 +2938,16 @@
 			(type default)
 		)
 		(uuid "8a7b5cc4-a43b-4c82-b7c5-f7172827bcec")
+	)
+	(wire
+		(pts
+			(xy 170.18 205.74) (xy 201.93 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aabb36f-311b-454f-9f36-9ffc058e9d31")
 	)
 	(wire
 		(pts
@@ -3129,7 +3191,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 80.01) (xy 186.69 80.01)
+			(xy 170.18 80.01) (xy 173.99 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3176,6 +3238,16 @@
 			(type default)
 		)
 		(uuid "c9dde5c7-13bb-4580-82ff-1688a06d8b63")
+	)
+	(wire
+		(pts
+			(xy 170.18 184.15) (xy 170.18 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfbcc95-70a0-44c2-ac79-fe20a3c0f26c")
 	)
 	(wire
 		(pts
@@ -3306,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "e387db1c-7c87-4080-a6a5-bf601f485a21")
+	)
+	(wire
+		(pts
+			(xy 173.99 80.01) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fc4e77-0c1d-4d28-a58e-5319daec6249")
 	)
 	(wire
 		(pts
@@ -4829,7 +4911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_Conn:SHDRRA3W35P0X125_1X3_550X550X350P"
 			(at 58.42 174.93 0)
 			(effects
 				(font
@@ -5084,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_LDO:SON65P300X300X100-9N-D"
 			(at 231.14 174.93 0)
 			(effects
 				(font
@@ -5330,6 +5412,103 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 170.18 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a11a9b-79a6-43a7-bd42-44ed4d5bc41f")
+		(property "Reference" "C74"
+			(at 172.72 190.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 172.72 193.0462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "KYOCERA AVX "
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "06033D106MAT2A "
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "581-06033D106MAT2A"
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c64f8b1-5bd1-4f54-a796-5926cf4be45b")
+		)
+		(pin "2"
+			(uuid "a0be5173-de06-4205-a7e0-e6869bf4f61e")
+		)
+		(instances
+			(project "Basic_DSP_V0_1"
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -5769,6 +5948,103 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 173.99 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8d5bb38-8f13-4c57-8b40-bb51dbafdb19")
+		(property "Reference" "C73"
+			(at 176.53 105.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 176.53 107.9562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "KYOCERA AVX "
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "06033D106MAT2A "
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "581-06033D106MAT2A"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0167da4e-3967-49b7-bf96-21a7263500e9")
+		)
+		(pin "2"
+			(uuid "6518f8db-9197-4274-852a-a60b4b1bd6eb")
+		)
+		(instances
+			(project ""
+				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
+					(reference "C73")
 					(unit 1)
 				)
 			)

@@ -3761,7 +3761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_OPAMP:SOT95P280X145-5N"
 			(at 223.52 177.47 0)
 			(effects
 				(font
@@ -4223,7 +4223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_OPAMP:SOT95P280X145-5N"
 			(at 177.8 373.05 0)
 			(effects
 				(font
@@ -5511,7 +5511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 350.52 0)
 			(effects
 				(font
@@ -5848,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_OPAMP:SOT95P280X145-5N"
 			(at 176.53 437.82 0)
 			(effects
 				(font
@@ -7936,7 +7936,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_OPAMP:SOT95P280X145-5N"
 			(at 222.25 242.24 0)
 			(effects
 				(font
@@ -8201,7 +8201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_Conn:530480410"
 			(at 322.58 217.5 0)
 			(effects
 				(font
@@ -9787,7 +9787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_Conn:530480410"
 			(at 35.56 18.11 0)
 			(effects
 				(font
@@ -9912,7 +9912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase_OPAMP:SOT95P280X145-5N"
 			(at 520.7 425.12 0)
 			(effects
 				(font

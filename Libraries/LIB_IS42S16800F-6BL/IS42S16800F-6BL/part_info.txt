@@ -1,9 +1,0 @@
-Manufacturer=Integrated Silicon Solution Inc.
-PartNumber=IS42S16800F-6BL
-PartCategory=Integrated Circuit
-PackageCategory=BGA
-PinCount=54
-Version=7.1
-Released=2016-02-01 04:04:43
-Downloaded=2024-04-09 22:10:18
-3D=Y

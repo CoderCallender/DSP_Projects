@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=TLV76733QWDRBRQ1
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline No-lead
-PinCount=9
-Version=1.1
-Released=2021-06-09 10:35:15
-Downloaded=2024-04-10 00:34:16
-3D=Y

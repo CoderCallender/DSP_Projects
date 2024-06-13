@@ -1,9 +1,0 @@
-Manufacturer=onsemi
-PartNumber=NCP718BSNADJT1G
-PartCategory=Integrated Circuit
-PackageCategory=SOT23 (5-Pin)
-PinCount=5
-Version=3.1
-Released=2018-12-13 03:07:57
-Downloaded=2024-04-10 00:41:05
-3D=Y
