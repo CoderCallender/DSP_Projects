@@ -2228,22 +2228,10 @@
 		(uuid "16220694-c993-4c8e-bf2a-5a1f7b6e7645")
 	)
 	(junction
-		(at 260.35 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35e209a5-3e2f-4ac2-a30c-8ba8b0a58738")
-	)
-	(junction
 		(at 91.44 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a9740d2-740b-4aae-a1a4-b44f0aec94be")
-	)
-	(junction
-		(at 240.03 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e788ed3-f550-4274-8f71-18177e325930")
 	)
 	(junction
 		(at 264.16 115.57)
@@ -2270,28 +2258,10 @@
 		(uuid "5a94828e-773a-4a61-b21c-02e10d9305a2")
 	)
 	(junction
-		(at 293.37 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c65da4c-c9ef-4707-960a-6a37e6fdf7e9")
-	)
-	(junction
 		(at 170.18 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "646fc76a-cb51-43e4-8525-e686309ad09f")
-	)
-	(junction
-		(at 271.78 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b15a5ca-e8a3-4d6e-bd4b-6c17ef566375")
-	)
-	(junction
-		(at 260.35 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c27eb9d-7a2b-46ec-8753-b761745b7e9a")
 	)
 	(junction
 		(at 186.69 115.57)
@@ -2312,28 +2282,10 @@
 		(uuid "80d0b648-4860-42e3-9755-12482dcb8318")
 	)
 	(junction
-		(at 313.69 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82d1425d-d91b-4e06-aa30-c42f1665481e")
-	)
-	(junction
-		(at 250.19 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "836aea37-e52a-4ac7-ac13-7d7bb3eb6ecc")
-	)
-	(junction
 		(at 220.98 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84b54775-dd4e-493f-86ad-22c8e71cccb4")
-	)
-	(junction
-		(at 271.78 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88eb4192-197e-4dee-b9de-314e6b4f2b65")
 	)
 	(junction
 		(at 199.39 96.52)
@@ -2346,24 +2298,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b32cb987-2e3d-4af9-b598-bf703f163a37")
-	)
-	(junction
-		(at 303.53 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba8cf247-512a-4e6d-9235-f4eaaf2ce498")
-	)
-	(junction
-		(at 293.37 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbeed27b-5e1b-4a1e-98ae-29f51173f41e")
-	)
-	(junction
-		(at 283.21 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6583dc9-94c5-45a7-ac88-15adcd9fc8e9")
 	)
 	(junction
 		(at 82.55 80.01)
@@ -2384,22 +2318,10 @@
 		(uuid "df563674-f869-41af-813c-afdc7e1a094e")
 	)
 	(junction
-		(at 303.53 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed0d9912-a063-4e6f-81d2-c98fc7a08530")
-	)
-	(junction
 		(at 167.64 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f05807c9-06cc-484f-82b1-32c3033e935f")
-	)
-	(junction
-		(at 250.19 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0bbb32e-7c89-4e7c-8b46-f3db5615f59c")
 	)
 	(junction
 		(at 91.44 80.01)
@@ -2412,12 +2334,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f57f3fe9-3eb3-45fd-8f3a-afad1de4a6b1")
-	)
-	(junction
-		(at 283.21 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff77802d-102e-4be0-a808-ee68a8a706f5")
 	)
 	(wire
 		(pts
@@ -2461,16 +2377,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 193.04) (xy 260.35 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a3c381-f42b-4553-8739-785cc1c70126")
-	)
-	(wire
-		(pts
 			(xy 173.99 109.22) (xy 173.99 115.57)
 		)
 		(stroke
@@ -2488,46 +2394,6 @@
 			(type default)
 		)
 		(uuid "190bf4dc-22f5-4693-96b4-b14880d20bfb")
-	)
-	(wire
-		(pts
-			(xy 313.69 184.15) (xy 303.53 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20757a0e-b9cc-4f4b-b9a7-a71f71bd5c67")
-	)
-	(wire
-		(pts
-			(xy 271.78 198.12) (xy 271.78 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22abedc5-fc28-4f2e-8c66-037ae4a936e7")
-	)
-	(wire
-		(pts
-			(xy 303.53 193.04) (xy 303.53 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "239ddbf0-de9a-4c0f-9aa8-df07cf632f83")
-	)
-	(wire
-		(pts
-			(xy 271.78 184.15) (xy 260.35 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25eda676-6f77-4259-a637-4c2b09faaf7d")
 	)
 	(wire
 		(pts
@@ -2551,26 +2417,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 184.15) (xy 240.03 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b46a54d-99b4-4cb9-b9dd-51835fb55e2c")
-	)
-	(wire
-		(pts
-			(xy 283.21 198.12) (xy 283.21 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f1b5786-c769-4202-aa28-3eadf0b9fea1")
-	)
-	(wire
-		(pts
 			(xy 227.33 87.63) (xy 199.39 87.63)
 		)
 		(stroke
@@ -2578,16 +2424,6 @@
 			(type default)
 		)
 		(uuid "30eb01dc-529c-47e7-aba8-c21a6993f3f9")
-	)
-	(wire
-		(pts
-			(xy 293.37 193.04) (xy 293.37 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33d05feb-fccb-45ff-a8d4-c6d58982811a")
 	)
 	(wire
 		(pts
@@ -2631,16 +2467,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 184.15) (xy 250.19 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4374cf7f-e364-4911-bb2d-db4f6c1ba025")
-	)
-	(wire
-		(pts
 			(xy 147.32 54.61) (xy 167.64 54.61)
 		)
 		(stroke
@@ -2678,26 +2504,6 @@
 			(type default)
 		)
 		(uuid "4fb043bd-81cf-40ff-8f31-950e92edc83b")
-	)
-	(wire
-		(pts
-			(xy 283.21 205.74) (xy 293.37 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5192fd63-3912-4dd1-bb08-c03503b79ae3")
-	)
-	(wire
-		(pts
-			(xy 313.69 193.04) (xy 313.69 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "534d0564-cf87-4c7c-83f9-32efac1d0635")
 	)
 	(wire
 		(pts
@@ -2751,33 +2557,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 205.74) (xy 260.35 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d09089d-208a-49e0-83f8-85cc1dfef329")
-	)
-	(wire
-		(pts
-			(xy 313.69 176.53) (xy 313.69 184.15)
+			(xy 240.03 176.53) (xy 240.03 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e947b66-cbd6-4523-9234-86d07e8e0e89")
-	)
-	(wire
-		(pts
-			(xy 250.19 198.12) (xy 250.19 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8c1884-6824-4445-8a08-9d32da2186d7")
 	)
 	(wire
 		(pts
@@ -2831,16 +2617,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 198.12) (xy 313.69 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4442fe-d642-450e-a9fc-772794afbce4")
-	)
-	(wire
-		(pts
 			(xy 264.16 115.57) (xy 242.57 115.57)
 		)
 		(stroke
@@ -2878,16 +2654,6 @@
 			(type default)
 		)
 		(uuid "801c63a2-d736-4ab8-a640-8fbddcf6e9a4")
-	)
-	(wire
-		(pts
-			(xy 293.37 184.15) (xy 283.21 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807b1f91-0b1b-4a7a-a766-d070a837e481")
 	)
 	(wire
 		(pts
@@ -2971,16 +2737,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 198.12) (xy 293.37 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee4d5b3-05b3-48af-baf2-2437bae8cf72")
-	)
-	(wire
-		(pts
 			(xy 288.29 115.57) (xy 275.59 115.57)
 		)
 		(stroke
@@ -2991,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 205.74) (xy 201.93 205.74)
+			(xy 201.93 205.74) (xy 240.03 205.74)
 		)
 		(stroke
 			(width 0)
@@ -3051,26 +2807,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 205.74) (xy 250.19 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f02e6b1-a08a-495c-a9b0-cdc0556cc9fc")
-	)
-	(wire
-		(pts
-			(xy 250.19 193.04) (xy 250.19 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a65267-bdda-4397-b452-47187d40073e")
-	)
-	(wire
-		(pts
 			(xy 257.81 85.09) (xy 270.51 85.09)
 		)
 		(stroke
@@ -3108,16 +2844,6 @@
 			(type default)
 		)
 		(uuid "aa90c201-3076-45b2-b7bf-836a5fa99f3e")
-	)
-	(wire
-		(pts
-			(xy 303.53 184.15) (xy 293.37 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade8ccb9-eff2-442a-9bc2-072d32b0cf6d")
 	)
 	(wire
 		(pts
@@ -3211,16 +2937,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 205.74) (xy 283.21 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2198dd9-34b1-4bd6-9736-8a21012864b6")
-	)
-	(wire
-		(pts
 			(xy 224.79 184.15) (xy 220.98 184.15)
 		)
 		(stroke
@@ -3228,16 +2944,6 @@
 			(type default)
 		)
 		(uuid "c4763d8f-46f2-47f7-8680-9ff85fbdb361")
-	)
-	(wire
-		(pts
-			(xy 303.53 198.12) (xy 303.53 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9dde5c7-13bb-4580-82ff-1688a06d8b63")
 	)
 	(wire
 		(pts
@@ -3281,26 +2987,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 198.12) (xy 260.35 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f71e48-7b6e-402d-9aaf-ef217adba2ed")
-	)
-	(wire
-		(pts
-			(xy 293.37 205.74) (xy 303.53 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa5e7f7-cb7f-4220-9e71-2d943a95b687")
-	)
-	(wire
-		(pts
 			(xy 194.31 184.15) (xy 170.18 184.15)
 		)
 		(stroke
@@ -3318,16 +3004,6 @@
 			(type default)
 		)
 		(uuid "dba82091-2a27-45ce-97f1-65d41881c2c3")
-	)
-	(wire
-		(pts
-			(xy 250.19 205.74) (xy 240.03 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce9e20a-0ee0-4297-9a6f-ae183e28bbb5")
 	)
 	(wire
 		(pts
@@ -3388,26 +3064,6 @@
 			(type default)
 		)
 		(uuid "e6fc4e77-0c1d-4d28-a58e-5319daec6249")
-	)
-	(wire
-		(pts
-			(xy 303.53 205.74) (xy 313.69 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec500e83-c232-4a67-b5c3-db94fd226af4")
-	)
-	(wire
-		(pts
-			(xy 283.21 193.04) (xy 283.21 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed8bbacb-2a40-4c7a-8d78-d944086a7596")
 	)
 	(wire
 		(pts
@@ -3481,16 +3137,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 193.04) (xy 271.78 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0ecef5-5c7e-4eff-b5fa-b902b9e0a248")
-	)
-	(wire
-		(pts
 			(xy 74.93 80.01) (xy 82.55 80.01)
 		)
 		(stroke
@@ -3498,16 +3144,6 @@
 			(type default)
 		)
 		(uuid "fd242b89-8534-4a20-9833-4ece6d02f4c0")
-	)
-	(wire
-		(pts
-			(xy 283.21 184.15) (xy 271.78 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda00d57-d3fe-419a-8d0b-9610bf45d509")
 	)
 	(text "LDO_3V3"
 		(exclude_from_sim no)
@@ -3681,318 +3317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 283.21 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17398dba-38d1-4eae-a91a-ad4ed2c2c245")
-		(property "Reference" "C19"
-			(at 285.75 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 285.75 196.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 283.21 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 283.21 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 283.21 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 287.528 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics "
-			(at 283.21 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32B226MOJNNNE "
-			(at 283.21 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "187-CL32B226MOJNNNE"
-			(at 283.21 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c860b523-0eb2-44b0-9b91-2491e333ab5f")
-		)
-		(pin "1"
-			(uuid "5499f9e3-1040-4211-8478-795cbac88e69")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 250.19 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c54d458-c6b3-4902-af8c-7a4698129242")
-		(property "Reference" "C16"
-			(at 252.73 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 252.73 196.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 250.19 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 250.19 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 254.508 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics "
-			(at 250.19 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32B226MOJNNNE "
-			(at 250.19 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "187-CL32B226MOJNNNE"
-			(at 250.19 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c73ace7d-513b-4b78-8a8a-50d01d96425a")
-		)
-		(pin "1"
-			(uuid "32065520-f78d-48e5-b2b9-907ee47de56e")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 260.35 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f797d7d-6ad6-4d6c-bb83-10a1d561701b")
-		(property "Reference" "C17"
-			(at 262.89 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 262.89 196.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 260.35 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 260.35 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 264.668 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics "
-			(at 260.35 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32B226MOJNNNE "
-			(at 260.35 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "187-CL32B226MOJNNNE"
-			(at 260.35 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b0a63e8-6abe-4eb1-adc6-347b4755767e")
-		)
-		(pin "1"
-			(uuid "63624701-31c2-4561-9aa4-4d8ec0945d26")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 186.69 118.11 0)
 		(unit 1)
@@ -4053,110 +3377,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 303.53 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "258e969a-85f4-4c05-9cc5-53d80d74b5e6")
-		(property "Reference" "C21"
-			(at 306.07 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 306.07 196.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 303.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 303.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 303.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 307.848 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics "
-			(at 303.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32B226MOJNNNE "
-			(at 303.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "187-CL32B226MOJNNNE"
-			(at 303.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "126085d3-6fec-4b17-806a-2464d408f219")
-		)
-		(pin "1"
-			(uuid "5091e4ce-f43b-4bce-94aa-40df6f2e5eef")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4334,7 +3554,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 313.69 176.53 0)
+		(at 240.03 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4343,7 +3563,7 @@
 		(fields_autoplaced yes)
 		(uuid "43e65ecd-d032-4f8a-b616-43205c8c4797")
 		(property "Reference" "#PWR019"
-			(at 313.69 180.34 0)
+			(at 240.03 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +3572,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 313.69 171.45 0)
+			(at 240.03 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +3580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 176.53 0)
+			(at 240.03 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +3589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 176.53 0)
+			(at 240.03 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +3598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 313.69 176.53 0)
+			(at 240.03 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,110 +3613,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 313.69 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47250f77-4837-4a79-b9d3-019f107f620f")
-		(property "Reference" "C22"
-			(at 316.23 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 316.23 196.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 313.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 313.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 318.008 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics "
-			(at 313.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32B226MOJNNNE "
-			(at 313.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "187-CL32B226MOJNNNE"
-			(at 313.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36aa98d4-a3fb-461e-89e0-756669b085e8")
-		)
-		(pin "1"
-			(uuid "064593e9-62ed-4146-b487-a1eafe270db2")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4776,110 +3892,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 271.78 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "732bbaeb-8255-4039-bfb4-7a35c1865795")
-		(property "Reference" "C18"
-			(at 274.32 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 274.32 196.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 271.78 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 271.78 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 276.098 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics "
-			(at 271.78 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32B226MOJNNNE "
-			(at 271.78 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "187-CL32B226MOJNNNE"
-			(at 271.78 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1443e18a-eba7-417e-8018-7ef7d8db28cb")
-		)
-		(pin "1"
-			(uuid "2c1251a9-ba0e-4a12-9ae4-b3791e57d654")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5647,110 +4659,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 293.37 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af074fe5-3b64-4b44-a68e-733711cf165b")
-		(property "Reference" "C20"
-			(at 295.91 194.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 295.91 196.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 293.37 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 293.37 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 293.37 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 297.688 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics "
-			(at 293.37 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32B226MOJNNNE "
-			(at 293.37 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "187-CL32B226MOJNNNE"
-			(at 293.37 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e01ddfc-df60-410d-b267-0952337bde8a")
-		)
-		(pin "1"
-			(uuid "d78c9808-b433-46e8-af36-bfc2d19fbb5c")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C20")
 					(unit 1)
 				)
 			)

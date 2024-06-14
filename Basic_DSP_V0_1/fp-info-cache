@@ -1,4 +1,4 @@
-23588736333163376
+23609320146639751
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6425,6 +6425,90 @@ capacitor tantalum
 0
 2
 2
+Chase_Analog_SW
+QFN40P140X180X50-10N
+SOT1160-1
+Integrated Circuit
+0
+10
+10
+Chase_Capacitor
+CAPAE430X550N
+865250540001
+Capacitor
+0
+2
+2
+Chase_Conn
+530480410
+53048-0410-3
+Connector
+0
+4
+4
+Chase_Conn
+530481510
+53048-1510-1
+Connector
+0
+15
+15
+Chase_Conn
+SHDRRA2W35P0X125_1X2_425X550X350P
+0530480210
+Connector
+0
+2
+2
+Chase_Conn
+SHDRRA3W35P0X125_1X3_550X550X350P
+53048-0310_2020
+Connector
+0
+3
+3
+Chase_Diode
+PMEG3005AESFYL
+SOD962-2
+Diode ESD (Bi-directional)
+0
+2
+2
+Chase_Diode
+SOT95P280X145-5N
+sot-23
+Integrated Circuit
+0
+5
+5
+Chase_LDO
+QFN40P140X180X50-10N
+SOT1160-1
+Integrated Circuit
+0
+10
+10
+Chase_LDO
+SON65P300X300X100-9N-D
+DRB0008J _2021
+Integrated Circuit
+0
+9
+9
+Chase_OPAMP
+SOT95P280X145-5N
+sot-23
+Integrated Circuit
+0
+5
+5
+Chase_USB
+QFN50P400X400X100-25N-D
+USB3318C-CP-TR
+Integrated Circuit
+0
+25
+25
 Chase_mem_Flash
 SOIC127P600X175-8N
 10.2 8-PIN JEDEC 150MIL BROAD SMALL OUTLINE INTEGRATED CIRCUIT (SOIC) PACKAGE (N)
