@@ -4877,16 +4877,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 62.23) (xy 172.72 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751c9a19-7392-46cb-9896-9bcbc320812f")
-	)
-	(wire
-		(pts
 			(xy 77.47 181.61) (xy 77.47 171.45)
 		)
 		(stroke
@@ -5484,16 +5474,6 @@
 			(type default)
 		)
 		(uuid "b9274918-34f3-4a40-9708-0877b10c4c6c")
-	)
-	(wire
-		(pts
-			(xy 163.83 64.77) (xy 172.72 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb479202-d87b-4220-8656-d8ffdb601193")
 	)
 	(wire
 		(pts
@@ -6224,18 +6204,6 @@
 		)
 		(uuid "3f0a7498-4468-4bc1-9ddd-23c0edd97278")
 	)
-	(hierarchical_label "ADC_IN6"
-		(shape input)
-		(at 172.72 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c9e7a94-916b-4f02-aaaf-43277929aa8e")
-	)
 	(hierarchical_label "GPIO5"
 		(shape bidirectional)
 		(at 175.26 123.19 0)
@@ -6259,18 +6227,6 @@
 			(justify right)
 		)
 		(uuid "61d660d6-1c9b-4138-82be-02dc84649982")
-	)
-	(hierarchical_label "ADC_IN7"
-		(shape input)
-		(at 172.72 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "65c54849-89b7-429d-9648-b4caecf979e2")
 	)
 	(hierarchical_label "SWITCH_0"
 		(shape input)
@@ -6543,6 +6499,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C2842809"
+			(at 228.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ROHM Semicon"
+			(at 228.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMLVN6RGB1W1"
+			(at 228.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "304dce7a-88d1-4df3-8588-eaf1cc0f769b")
 		)
@@ -6598,7 +6581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 367.03 73.66 0)
 			(effects
 				(font
@@ -6625,7 +6608,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 367.03 73.66 0)
 			(effects
 				(font
@@ -6634,7 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 367.03 73.66 0)
 			(effects
 				(font
@@ -6644,6 +6627,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 367.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 367.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 367.03 73.66 0)
 			(effects
 				(font
@@ -6717,6 +6718,33 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 236.22 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C20917"
+			(at 236.22 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Alpha & Omega Semicon "
+			(at 236.22 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
 			(at 236.22 186.69 0)
 			(effects
 				(font
@@ -6861,6 +6889,15 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" ""
+			(at 77.47 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7ed75f2-5bb6-4ded-ba37-f55c14cb935e")
 		)
@@ -6936,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "RF18N180F500CT"
 			(at 87.63 191.77 0)
 			(effects
 				(font
@@ -6945,7 +6982,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "Walsin Tech Corp "
 			(at 87.63 191.77 0)
 			(effects
 				(font
@@ -6969,6 +7006,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C2909435"
+			(at 87.63 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7039,6 +7085,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C163909"
+			(at 247.65 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp "
+			(at 247.65 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR06X33R0FTL"
+			(at 247.65 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6af1c944-f814-4a03-bce3-d75e553359b9")
 		)
@@ -7082,7 +7155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -7109,7 +7182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -7118,7 +7191,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -7128,6 +7201,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -7271,7 +7362,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 91.44 226.06 0)
 			(effects
 				(font
@@ -7280,7 +7371,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 91.44 226.06 0)
 			(effects
 				(font
@@ -7304,6 +7395,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 91.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7415,7 +7515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 287.02 73.66 0)
 			(effects
 				(font
@@ -7442,7 +7542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 287.02 73.66 0)
 			(effects
 				(font
@@ -7451,7 +7551,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 287.02 73.66 0)
 			(effects
 				(font
@@ -7461,6 +7561,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 287.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 287.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 287.02 73.66 0)
 			(effects
 				(font
@@ -7736,6 +7854,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C3040608"
+			(at 327.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 327.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD9B3.3ST5G"
+			(at 327.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd4c4c3c-78ae-43c5-8c23-95ad033f2364")
 		)
@@ -7805,7 +7950,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 80.01 226.06 0)
 			(effects
 				(font
@@ -7814,7 +7959,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 80.01 226.06 0)
 			(effects
 				(font
@@ -7838,6 +7983,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 80.01 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7883,7 +8037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.84 120.65 0)
 			(effects
 				(font
@@ -7910,7 +8064,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 116.84 120.65 0)
 			(effects
 				(font
@@ -7919,7 +8073,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 116.84 120.65 0)
 			(effects
 				(font
@@ -7929,6 +8083,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 116.84 120.65 0)
 			(effects
 				(font
@@ -8006,7 +8178,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 365.76 142.24 0)
 			(effects
 				(font
@@ -8015,7 +8187,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 365.76 142.24 0)
 			(effects
 				(font
@@ -8039,6 +8211,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 365.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8174,6 +8355,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C22828"
+			(at 223.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 223.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1800T5E"
+			(at 223.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d382668-8259-49ab-93d6-f89b1625ee8a")
 		)
@@ -8235,6 +8443,33 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 318.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C3040608"
+			(at 318.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 318.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD9B3.3ST5G"
 			(at 318.77 165.1 0)
 			(effects
 				(font
@@ -8378,7 +8613,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 275.59 73.66 0)
 			(effects
 				(font
@@ -8387,7 +8622,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 275.59 73.66 0)
 			(effects
 				(font
@@ -8411,6 +8646,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 275.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8482,7 +8726,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 326.39 73.66 0)
 			(effects
 				(font
@@ -8491,7 +8735,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 326.39 73.66 0)
 			(effects
 				(font
@@ -8515,6 +8759,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 326.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8578,6 +8831,33 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C3040608"
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD9B3.3ST5G"
 			(at 279.4 143.51 0)
 			(effects
 				(font
@@ -8695,7 +8975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 377.19 73.66 0)
 			(effects
 				(font
@@ -8722,7 +9002,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 377.19 73.66 0)
 			(effects
 				(font
@@ -8731,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 377.19 73.66 0)
 			(effects
 				(font
@@ -8741,6 +9021,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 377.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 377.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 377.19 73.66 0)
 			(effects
 				(font
@@ -8837,6 +9135,15 @@
 		)
 		(property "OC_MOUSER" "81-BLM18KG121TN1D"
 			(at 72.39 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C85831"
+			(at 72.39 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,6 +9278,15 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
+			(at 293.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
 			(at 293.37 143.51 0)
 			(effects
 				(font
@@ -9191,6 +9507,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C163909"
+			(at 356.87 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp "
+			(at 356.87 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR06X33R0FTL"
+			(at 356.87 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2cee35b3-b6f5-4329-bcf9-4bc259b56bed")
 		)
@@ -9256,6 +9599,33 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 231.14 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C20917"
+			(at 231.14 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Alpha & Omega Semicon "
+			(at 231.14 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
 			(at 231.14 207.01 0)
 			(effects
 				(font
@@ -9335,6 +9705,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C163909"
+			(at 247.65 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp "
+			(at 247.65 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR06X33R0FTL"
+			(at 247.65 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff4dc15a-107c-416e-a1b1-49ab74e18312")
 		)
@@ -9396,6 +9793,33 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 345.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C3040608"
+			(at 345.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 345.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD9B3.3ST5G"
 			(at 345.44 165.1 0)
 			(effects
 				(font
@@ -9603,6 +10027,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C163909"
+			(at 247.65 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp "
+			(at 247.65 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR06X33R0FTL"
+			(at 247.65 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7214dc28-fd58-4ea1-a2c7-cb7d058bc023")
 		)
@@ -9672,7 +10123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "RF18N180F500CT"
 			(at 66.04 191.77 0)
 			(effects
 				(font
@@ -9681,7 +10132,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "Walsin Tech Corp "
 			(at 66.04 191.77 0)
 			(effects
 				(font
@@ -9705,6 +10156,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C2909435"
+			(at 66.04 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9773,6 +10233,33 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 226.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C20917"
+			(at 226.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Alpha & Omega Semicon "
+			(at 226.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
 			(at 226.06 226.06 0)
 			(effects
 				(font
@@ -9853,7 +10340,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 336.55 73.66 0)
 			(effects
 				(font
@@ -9862,7 +10349,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 336.55 73.66 0)
 			(effects
 				(font
@@ -9886,6 +10373,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 336.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10021,6 +10517,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C22828"
+			(at 233.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 233.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1800T5E"
+			(at 233.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ccadf46e-7761-4fa7-a556-4fe1689ffbee")
 		)
@@ -10090,7 +10613,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 63.5 226.06 0)
 			(effects
 				(font
@@ -10099,7 +10622,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 63.5 226.06 0)
 			(effects
 				(font
@@ -10123,6 +10646,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 63.5 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10260,6 +10792,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C3040608"
+			(at 336.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 336.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD9B3.3ST5G"
+			(at 336.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f6481a3-ded3-44a0-a92d-f000c76ad9b4")
 		)
@@ -10327,6 +10886,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C163909"
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp "
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR06X33R0FTL"
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a933f27-b0d7-43c2-bf36-3cc363d2f1e8")
 		)
@@ -10370,7 +10956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 356.87 73.66 0)
 			(effects
 				(font
@@ -10397,7 +10983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 356.87 73.66 0)
 			(effects
 				(font
@@ -10406,7 +10992,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 356.87 73.66 0)
 			(effects
 				(font
@@ -10416,6 +11002,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 356.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 356.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 356.87 73.66 0)
 			(effects
 				(font
@@ -10559,7 +11163,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 314.96 73.66 0)
 			(effects
 				(font
@@ -10568,7 +11172,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 314.96 73.66 0)
 			(effects
 				(font
@@ -10592,6 +11196,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 314.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10723,6 +11336,33 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C124726"
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32F415RGT6"
 			(at 146.05 90.17 0)
 			(effects
 				(font
@@ -10986,7 +11626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 304.8 73.66 0)
 			(effects
 				(font
@@ -10995,7 +11635,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 304.8 73.66 0)
 			(effects
 				(font
@@ -11019,6 +11659,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 304.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11146,6 +11795,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 228.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C22966"
+			(at 228.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 228.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2700T5E"
 			(at 228.6 161.29 0)
 			(effects
 				(font
@@ -11290,6 +11966,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C25804"
+			(at 59.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 59.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 59.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de88191b-9f5f-4ed6-835a-51ab481eb2b6")
 		)
@@ -11399,7 +12102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 346.71 73.66 0)
 			(effects
 				(font
@@ -11426,7 +12129,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 346.71 73.66 0)
 			(effects
 				(font
@@ -11435,7 +12138,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 346.71 73.66 0)
 			(effects
 				(font
@@ -11445,6 +12148,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 346.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 346.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 346.71 73.66 0)
 			(effects
 				(font

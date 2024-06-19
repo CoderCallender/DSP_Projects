@@ -2325,6 +2325,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C25804"
+			(at 186.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 186.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 186.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66625d8d-ff61-4803-8fea-9dcd82786e2f")
 		)
@@ -2395,7 +2422,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155Z71A225KE01D "
+		(property "MPN" "0603B225K250NT"
 			(at 186.69 100.33 0)
 			(effects
 				(font
@@ -2404,7 +2431,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata Electronics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 186.69 100.33 0)
 			(effects
 				(font
@@ -2414,6 +2441,24 @@
 			)
 		)
 		(property "OC_MOUSER" "81-GRM155Z71A225KE1D"
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 186.69 100.33 0)
 			(effects
 				(font
@@ -2621,6 +2666,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C25804"
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1048ddb7-1734-4ea5-bed9-95cfbaf86f35")
 		)
@@ -2690,7 +2762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 245.11 97.79 0)
 			(effects
 				(font
@@ -2699,7 +2771,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 245.11 97.79 0)
 			(effects
 				(font
@@ -2723,6 +2795,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2804,7 +2885,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21B106KOQNNNG "
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 248.92 161.29 0)
 			(effects
 				(font
@@ -2814,6 +2895,24 @@
 			)
 		)
 		(property "OC_MOUSER" "187-CL21B106KOQNNNG"
+			(at 248.92 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C96446"
+			(at 248.92 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 248.92 161.29 0)
 			(effects
 				(font
@@ -3089,7 +3188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 262.89 161.29 0)
 			(effects
 				(font
@@ -3098,7 +3197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 262.89 161.29 0)
 			(effects
 				(font
@@ -3122,6 +3221,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 262.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3259,7 +3367,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 198.12 100.33 0)
 			(effects
 				(font
@@ -3268,7 +3376,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 198.12 100.33 0)
 			(effects
 				(font
@@ -3292,6 +3400,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3493,6 +3610,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C163909"
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp "
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR06X33R0FTL"
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f69771d4-a7eb-4551-a952-2b1d73a07e2b")
 		)
@@ -3629,7 +3773,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155Z71A225KE01D "
+		(property "MPN" "0603B225K250NT"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -3638,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata Electronics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -3648,6 +3792,24 @@
 			)
 		)
 		(property "OC_MOUSER" "81-GRM155Z71A225KE1D"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -3723,6 +3885,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C25804"
+			(at 199.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 199.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 199.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91f92338-a694-4e73-891c-7f4c7b4ae392")
 		)
@@ -3782,6 +3971,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C4190"
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2201T5E"
 			(at 140.97 129.54 0)
 			(effects
 				(font
@@ -3852,6 +4068,33 @@
 			)
 		)
 		(property "Description" "24-Bit, 192-kHz Stereo Audio CODEC, TSSOP-24"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C1323229"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Cirrus Logic"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CS4270-CZZR"
 			(at 217.17 137.16 0)
 			(effects
 				(font
@@ -3993,6 +4236,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C4190"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2201T5E"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c30f19b-bcfd-497e-b83a-639488235988")
 		)
@@ -4062,7 +4332,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -4071,7 +4341,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -4095,6 +4365,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4156,6 +4435,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 285.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C105579"
+			(at 285.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO "
+			(at 285.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
 			(at 285.75 124.46 0)
 			(effects
 				(font
@@ -4233,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 238.76 161.29 0)
 			(effects
 				(font
@@ -4242,7 +4548,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 238.76 161.29 0)
 			(effects
 				(font
@@ -4266,6 +4572,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 238.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4311,7 +4626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 273.05 161.29 0)
 			(effects
 				(font
@@ -4347,7 +4662,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21B106KOQNNNG "
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 273.05 161.29 0)
 			(effects
 				(font
@@ -4357,6 +4672,24 @@
 			)
 		)
 		(property "OC_MOUSER" "187-CL21B106KOQNNNG"
+			(at 273.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C96446"
+			(at 273.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 273.05 161.29 0)
 			(effects
 				(font

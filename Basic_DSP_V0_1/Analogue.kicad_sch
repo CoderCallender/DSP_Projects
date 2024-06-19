@@ -3653,6 +3653,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C302062"
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp"
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603N221J500CT"
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "760bd4dc-c454-46d2-9145-703b31a34347")
 		)
@@ -3713,6 +3740,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C445734"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TDK "
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA3E2X8R2A103KT0Y0H"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -3837,6 +3891,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C4368955"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments "
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV9161IDBVR"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4117,6 +4198,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C22935"
+			(at 115.57 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 115.57 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1004T5E"
+			(at 115.57 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98ecd25a-d8e4-4144-9cfe-0dcc9c1edda4")
 		)
@@ -4302,6 +4410,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C4368955"
+			(at 156.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments "
+			(at 156.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV9161IDBVR"
+			(at 156.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "a6b5355c-8c7a-4a6e-9f59-37cd2aee4ec6")
 		)
@@ -4379,6 +4514,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C445734"
+			(at 99.06 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TDK "
+			(at 99.06 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA3E2X8R2A103KT0Y0H"
+			(at 99.06 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bc167b48-bb9a-4026-b576-bcb377854ff9")
 		)
@@ -4422,7 +4584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 537.21 306.07 0)
 			(effects
 				(font
@@ -4449,7 +4611,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 537.21 306.07 0)
 			(effects
 				(font
@@ -4458,7 +4620,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 537.21 306.07 0)
 			(effects
 				(font
@@ -4468,6 +4630,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 537.21 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 537.21 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 537.21 306.07 0)
 			(effects
 				(font
@@ -4546,6 +4726,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C3021104"
+			(at 130.81 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 130.81 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " ESD9B5.0ST5G"
+			(at 130.81 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d324c006-44b2-4f14-9e38-2abe6310b253")
 		)
@@ -4606,6 +4813,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 203.2 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C105588"
+			(at 203.2 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " YAGEO "
+			(at 203.2 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " RC0603FR-07100RL"
 			(at 203.2 278.13 0)
 			(effects
 				(font
@@ -4684,6 +4918,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C302062"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603N221J500CT"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ad09b64-da2e-4cb6-abf4-aef84bcaec5f")
 		)
@@ -4746,6 +5007,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 236.22 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C25804"
+			(at 236.22 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 236.22 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
 			(at 236.22 353.06 0)
 			(effects
 				(font
@@ -4956,6 +5244,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C161114"
+			(at 138.43 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata Electronics "
+			(at 138.43 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCJ188R71H102KA01D"
+			(at 138.43 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df821a37-5bb3-4423-b547-ff1105163c17")
 		)
@@ -5090,6 +5405,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C25585"
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAJ0102T5E"
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c92c890-333b-4977-91cf-5da6ce98ed4c")
 		)
@@ -5150,6 +5492,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 201.93 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C105588"
+			(at 201.93 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " YAGEO "
+			(at 201.93 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " RC0603FR-07100RL"
 			(at 201.93 342.9 0)
 			(effects
 				(font
@@ -5228,6 +5597,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C3021104"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " ESD9B5.0ST5G"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30b75d82-9341-45fc-a63c-cb9e13a17c1b")
 		)
@@ -5296,6 +5692,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C445734"
+			(at 97.79 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TDK "
+			(at 97.79 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA3E2X8R2A103KT0Y0H"
+			(at 97.79 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "afc39b1a-e943-4750-8b6d-d3edd07585f5")
 		)
@@ -5356,6 +5779,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 143.51 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C105588"
+			(at 143.51 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " YAGEO "
+			(at 143.51 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " RC0603FR-07100RL"
 			(at 143.51 143.51 0)
 			(effects
 				(font
@@ -5433,7 +5883,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 182.88 259.08 0)
 			(effects
 				(font
@@ -5442,7 +5892,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 182.88 259.08 0)
 			(effects
 				(font
@@ -5466,6 +5916,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 182.88 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5530,6 +5989,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C161114"
+			(at 137.16 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata Electronics "
+			(at 137.16 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCJ188R71H102KA01D"
 			(at 137.16 350.52 0)
 			(effects
 				(font
@@ -5674,6 +6160,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C105579"
+			(at 469.9 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO "
+			(at 469.9 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  RC0603FR-0747KL"
+			(at 469.9 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a0fa7d8f-ec54-4320-969b-c7c4dd82c2c8")
 		)
@@ -5734,6 +6247,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 173.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C445734"
+			(at 173.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TDK "
+			(at 173.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA3E2X8R2A103KT0Y0H"
 			(at 173.99 143.51 0)
 			(effects
 				(font
@@ -5927,6 +6467,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C4368955"
+			(at 154.94 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments "
+			(at 154.94 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV9161IDBVR"
+			(at 154.94 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4c223c2a-2213-4cb3-aef2-21259718ec7b")
 		)
@@ -6004,6 +6571,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C25585"
+			(at 128.27 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 128.27 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAJ0102T5E"
+			(at 128.27 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49d9293d-5fe8-4fbd-ad61-4fed361d6764")
 		)
@@ -6073,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 227.33 128.27 0)
 			(effects
 				(font
@@ -6082,7 +6676,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 227.33 128.27 0)
 			(effects
 				(font
@@ -6106,6 +6700,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6178,6 +6781,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C22935"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1004T5E"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abe5926c-17b9-42ab-828f-674827c903d9")
 		)
@@ -6238,6 +6868,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 129.54 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C25585"
+			(at 129.54 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 129.54 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAJ0102T5E"
 			(at 129.54 274.32 0)
 			(effects
 				(font
@@ -6382,6 +7039,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C105579"
+			(at 469.9 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO "
+			(at 469.9 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  RC0603FR-0747KL"
+			(at 469.9 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7787dc7-8d2f-45eb-b0e8-34ebf79256b2")
 		)
@@ -6444,6 +7128,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C22935"
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1004T5E"
 			(at 166.37 154.94 0)
 			(effects
 				(font
@@ -6627,7 +7338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 193.04 259.08 0)
 			(effects
 				(font
@@ -6654,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 193.04 259.08 0)
 			(effects
 				(font
@@ -6663,7 +7374,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 193.04 259.08 0)
 			(effects
 				(font
@@ -6673,6 +7384,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 193.04 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 193.04 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 193.04 259.08 0)
 			(effects
 				(font
@@ -6751,6 +7480,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C22935"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1004T5E"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62ebb8f2-35c8-42f2-91f6-d868b83205dd")
 		)
@@ -6793,7 +7549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 480.06 342.9 0)
 			(effects
 				(font
@@ -6828,7 +7584,7 @@
 				)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "HRE"
 			(at 480.06 342.9 0)
 			(effects
 				(font
@@ -6837,7 +7593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL32B226MOJNNNE "
+		(property "MPN" "CGA0603X5R226M160JT"
 			(at 480.06 342.9 0)
 			(effects
 				(font
@@ -6847,6 +7603,15 @@
 			)
 		)
 		(property "OC_MOUSER" "187-CL32B226MOJNNNE"
+			(at 480.06 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C6119868"
 			(at 480.06 342.9 0)
 			(effects
 				(font
@@ -6925,6 +7690,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C25804"
+			(at 236.22 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 236.22 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 236.22 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7804791-a67c-42b9-8af0-ea878688bb6e")
 		)
@@ -6994,7 +7786,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 228.6 63.5 0)
 			(effects
 				(font
@@ -7003,7 +7795,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 228.6 63.5 0)
 			(effects
 				(font
@@ -7027,6 +7819,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7106,7 +7907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73J"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 226.06 278.13 90)
 			(effects
 				(font
@@ -7115,7 +7916,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata Electronics "
+		(property "MF" "Samsung Electro-Mechanics "
 			(at 226.06 278.13 90)
 			(effects
 				(font
@@ -7126,6 +7927,15 @@
 		)
 		(property "OC_MOUSER" "81-GRM188R61C106MA3J"
 			(at 226.06 278.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C96446"
+			(at 226.06 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +8052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 238.76 128.27 0)
 			(effects
 				(font
@@ -7269,7 +8079,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 238.76 128.27 0)
 			(effects
 				(font
@@ -7278,7 +8088,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 238.76 128.27 0)
 			(effects
 				(font
@@ -7288,6 +8098,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 238.76 128.27 0)
 			(effects
 				(font
@@ -7430,6 +8258,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C25585"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAJ0102T5E"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b733c72-3ca4-46a0-a1bd-f7687bef82bc")
 		)
@@ -7492,6 +8347,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 116.84 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C22935"
+			(at 116.84 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 116.84 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1004T5E"
 			(at 116.84 328.93 0)
 			(effects
 				(font
@@ -8015,6 +8897,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C4368955"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments "
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV9161IDBVR"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "7f7c3464-9571-4c79-a3ae-80e497761406")
 		)
@@ -8084,6 +8993,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C105588"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " YAGEO "
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " RC0603FR-07100RL"
 			(at 144.78 78.74 0)
 			(effects
 				(font
@@ -8280,6 +9216,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C588275"
+			(at 306.07 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "MOLEX"
+			(at 306.07 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "530480410"
+			(at 306.07 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "967c748c-5a5e-473b-9b81-05e95ae057c6")
 		)
@@ -8329,7 +9292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 240.03 63.5 0)
 			(effects
 				(font
@@ -8356,7 +9319,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 240.03 63.5 0)
 			(effects
 				(font
@@ -8365,7 +9328,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 240.03 63.5 0)
 			(effects
 				(font
@@ -8375,6 +9338,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 240.03 63.5 0)
 			(effects
 				(font
@@ -8526,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73J"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 270.51 147.32 90)
 			(effects
 				(font
@@ -8535,7 +9516,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata Electronics "
+		(property "MF" "Samsung Electro-Mechanics "
 			(at 270.51 147.32 90)
 			(effects
 				(font
@@ -8546,6 +9527,15 @@
 		)
 		(property "OC_MOUSER" "81-GRM188R61C106MA3J"
 			(at 270.51 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C96446"
+			(at 270.51 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,6 +9679,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C22935"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec) "
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1004T5E"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da0b6a7b-f26f-444e-8da3-1efe56da8c44")
 		)
@@ -8766,7 +9783,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73J"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 224.79 342.9 90)
 			(effects
 				(font
@@ -8775,7 +9792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata Electronics "
+		(property "MF" "Samsung Electro-Mechanics "
 			(at 224.79 342.9 90)
 			(effects
 				(font
@@ -8786,6 +9803,15 @@
 		)
 		(property "OC_MOUSER" "81-GRM188R61C106MA3J"
 			(at 224.79 342.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C96446"
+			(at 224.79 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,6 +9881,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C302062"
+			(at 152.4 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp"
+			(at 152.4 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603N221J500CT"
 			(at 152.4 154.94 0)
 			(effects
 				(font
@@ -9104,7 +10157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.77 323.85 0)
 			(effects
 				(font
@@ -9131,7 +10184,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 191.77 323.85 0)
 			(effects
 				(font
@@ -9140,7 +10193,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603B225K250NT"
 			(at 191.77 323.85 0)
 			(effects
 				(font
@@ -9150,6 +10203,24 @@
 			)
 		)
 		(property "OC_MOUSER" ""
+			(at 191.77 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C99228"
+			(at 191.77 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 191.77 323.85 0)
 			(effects
 				(font
@@ -9228,6 +10299,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C302062"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Walsin Tech Corp"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603N221J500CT"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a079d47-7e0c-4dad-bb04-91b5b465e9ca")
 		)
@@ -9297,7 +10395,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 181.61 323.85 0)
 			(effects
 				(font
@@ -9306,7 +10404,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 181.61 323.85 0)
 			(effects
 				(font
@@ -9330,6 +10428,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 181.61 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9467,7 +10574,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MBAST105SB7104KFNA01"
+		(property "MPN" "0603B104M250NT"
 			(at 527.05 306.07 0)
 			(effects
 				(font
@@ -9476,7 +10583,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TAIYO YUDEN "
+		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
 			(at 527.05 306.07 0)
 			(effects
 				(font
@@ -9500,6 +10607,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "OC_LCSC" "C336628"
+			(at 527.05 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9579,7 +10695,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73J"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 271.78 82.55 90)
 			(effects
 				(font
@@ -9588,7 +10704,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata Electronics "
+		(property "MF" "Samsung Electro-Mechanics "
 			(at 271.78 82.55 90)
 			(effects
 				(font
@@ -9599,6 +10715,15 @@
 		)
 		(property "OC_MOUSER" "81-GRM188R61C106MA3J"
 			(at 271.78 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C96446"
+			(at 271.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9676,6 +10801,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C3021104"
+			(at 245.11 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 245.11 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " ESD9B5.0ST5G"
+			(at 245.11 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0bb40fca-bb38-41cc-ac26-36e4c69cb755")
 		)
@@ -9738,6 +10890,33 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+			(at 245.11 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C3021104"
+			(at 245.11 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TECH PUBLIC "
+			(at 245.11 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " ESD9B5.0ST5G"
 			(at 245.11 288.29 0)
 			(effects
 				(font
@@ -9866,6 +11045,33 @@
 				(hide yes)
 			)
 		)
+		(property "OC_LCSC" "C588275"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "MOLEX"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "530480410"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e9a55f8-db7b-45ec-a81e-f38652f74ee0")
 		)
@@ -9988,6 +11194,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C4368955"
+			(at 499.11 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments "
+			(at 499.11 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV9161IDBVR"
+			(at 499.11 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
