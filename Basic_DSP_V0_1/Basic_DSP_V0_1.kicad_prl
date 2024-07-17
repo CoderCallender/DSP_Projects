@@ -1,10 +1,16 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "+5VA",
+      "GND",
+      "+3V3",
+      "+3V3_FILT",
+      "+5V"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -36,6 +42,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       15,
