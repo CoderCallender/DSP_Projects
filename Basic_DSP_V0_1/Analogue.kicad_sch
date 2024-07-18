@@ -1898,16 +1898,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 274.32) (xy 96.52 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423cfc64-4f44-4c26-967d-fe1d891f99d7")
-	)
-	(wire
-		(pts
 			(xy 193.04 290.83) (xy 193.04 278.13)
 		)
 		(stroke
@@ -2175,6 +2165,16 @@
 			(type default)
 		)
 		(uuid "6808fdd9-ba60-42b2-b613-818a08aa4daf")
+	)
+	(wire
+		(pts
+			(xy 64.77 339.09) (xy 95.25 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699b379f-713a-464d-bea2-d185eae2897a")
 	)
 	(wire
 		(pts
@@ -3138,16 +3138,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 339.09) (xy 95.25 339.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21e74b9-87e3-4dad-a4d3-f1c3c69f5161")
-	)
-	(wire
-		(pts
 			(xy 137.16 339.09) (xy 158.75 339.09)
 		)
 		(stroke
@@ -3225,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "dad3f5c1-fe78-4f7d-bded-9a3a9d1641e5")
+	)
+	(wire
+		(pts
+			(xy 96.52 274.32) (xy 63.5 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba73475-2cca-4f56-acfd-1a382082e396")
 	)
 	(wire
 		(pts
@@ -3507,7 +3507,7 @@
 		(uuid "1750e136-de39-44ae-a832-7e8bb7caf40e")
 	)
 	(label "AUDIO_OUT_R"
-		(at 251.46 342.9 0)
+		(at 260.35 278.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3515,7 +3515,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "00f2941b-9f89-4cbb-adba-64b4abd640d6")
+		(uuid "2f98ff39-9ef8-4037-a200-c38259b65e63")
 	)
 	(label "AUDIO_IN_L"
 		(at 72.39 105.41 0)
@@ -3540,7 +3540,7 @@
 		(uuid "c9ff919f-dc26-4316-a115-87fe8020b027")
 	)
 	(label "AUDIO_OUT_L"
-		(at 254 278.13 0)
+		(at 261.62 342.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3548,11 +3548,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d7972eab-c954-40f8-b60a-cca81b5c549a")
+		(uuid "ed7e673d-6db8-4661-95da-4b5674bb3ec0")
 	)
 	(hierarchical_label "CODEC_OUT_L"
 		(shape input)
-		(at 64.77 274.32 180)
+		(at 64.77 339.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3564,7 +3564,7 @@
 	)
 	(hierarchical_label "CODEC_OUT_R"
 		(shape input)
-		(at 63.5 339.09 180)
+		(at 63.5 274.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
