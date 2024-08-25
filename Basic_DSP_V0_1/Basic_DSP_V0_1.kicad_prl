@@ -21,17 +21,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
+      "otherItems": false,
+      "pads": false,
       "text": true,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       0,
@@ -39,6 +39,7 @@
       2,
       3,
       4,
+      5,
       8,
       9,
       10,
@@ -47,6 +48,8 @@
       13,
       15,
       16,
+      17,
+      18,
       19,
       20,
       21,
