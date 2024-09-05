@@ -3844,12 +3844,6 @@
 		(uuid "38f98f84-7f7e-4d17-9dfa-3101aa1a6de5")
 	)
 	(junction
-		(at 275.59 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cee07f7-cd8b-4c0d-b5ba-f9c2334d46e3")
-	)
-	(junction
 		(at 346.71 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3980,12 +3974,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c551fde4-7b08-42e0-a3d6-b5eef4529a22")
-	)
-	(junction
-		(at 275.59 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb4f2231-f71b-48ca-aa15-4aeaf97c3c6c")
 	)
 	(junction
 		(at 365.76 138.43)
@@ -4637,16 +4625,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 76.2) (xy 287.02 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479c05eb-1756-4f7a-9e7d-58aa003c609a")
-	)
-	(wire
-		(pts
 			(xy 163.83 128.27) (xy 175.26 128.27)
 		)
 		(stroke
@@ -4857,16 +4835,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 71.12) (xy 287.02 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7215aae5-798e-4e40-9439-febdecb7b8ea")
-	)
-	(wire
-		(pts
 			(xy 377.19 76.2) (xy 377.19 80.01)
 		)
 		(stroke
@@ -4997,16 +4965,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 80.01) (xy 275.59 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "846d1173-5f28-4fb3-9291-789e6d980660")
-	)
-	(wire
-		(pts
 			(xy 377.19 67.31) (xy 377.19 71.12)
 		)
 		(stroke
@@ -5017,7 +4975,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 76.2) (xy 275.59 80.01)
+			(xy 275.59 76.2) (xy 275.59 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5287,16 +5245,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 67.31) (xy 287.02 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec53e5f-690c-4fd0-9383-20863bd32118")
-	)
-	(wire
-		(pts
 			(xy 101.6 59.69) (xy 128.27 59.69)
 		)
 		(stroke
@@ -5327,7 +5275,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 67.31) (xy 275.59 71.12)
+			(xy 275.59 66.04) (xy 275.59 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5607,16 +5555,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 66.04) (xy 275.59 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d02d5f72-2d19-4cbe-8fa5-1884d585394b")
-	)
-	(wire
-		(pts
 			(xy 74.93 59.69) (xy 96.52 59.69)
 		)
 		(stroke
@@ -5634,16 +5572,6 @@
 			(type default)
 		)
 		(uuid "d21d3b7e-5185-420b-9c9f-4b0eb0550f69")
-	)
-	(wire
-		(pts
-			(xy 275.59 80.01) (xy 275.59 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d582455b-bb2b-405d-9f1c-d6024e9fbd85")
 	)
 	(wire
 		(pts
@@ -7489,7 +7417,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 287.02 73.66 0)
+		(at 275.59 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7498,7 +7426,7 @@
 		(fields_autoplaced yes)
 		(uuid "2028cb3a-6378-408b-9c2e-01e299365802")
 		(property "Reference" "C65"
-			(at 289.56 72.3962 0)
+			(at 278.13 72.3962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7435,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 289.56 74.9362 0)
+			(at 278.13 74.9362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7444,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 287.02 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +7453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7462,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 287.02 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7471,7 @@
 			)
 		)
 		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
-			(at 287.02 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7480,7 @@
 			)
 		)
 		(property "MPN" "0603B225K250NT"
-			(at 287.02 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7489,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 287.02 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7498,7 @@
 			)
 		)
 		(property "OC_LCSC" "C99228"
-			(at 287.02 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7507,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 287.02 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,119 +8482,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/e7dbc969-ba2c-45c9-9dd2-cc5d15b1c61e"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 275.59 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54719fef-6ec5-4c33-b0fd-b8b50d0c9ccd")
-		(property "Reference" "C64"
-			(at 278.13 72.3962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 277.876 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603B104M250NT"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "963-BAST105SB7104KF"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 279.908 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OC_LCSC" "C336628"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca4aa8e0-ee99-4cc7-9020-4545e8a214b6")
-		)
-		(pin "1"
-			(uuid "3609ccd0-18ee-4c6a-b749-242f7336a45d")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/e7dbc969-ba2c-45c9-9dd2-cc5d15b1c61e"
-					(reference "C64")
 					(unit 1)
 				)
 			)
