@@ -744,152 +744,6 @@
 				)
 			)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2173,18 +2027,6 @@
 		(uuid "015da12c-b715-4420-8c2f-98562c966020")
 	)
 	(junction
-		(at 132.08 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07b1451c-04fc-4a11-bbc2-00e82740000a")
-	)
-	(junction
-		(at 157.48 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07c1e30e-e583-4688-af25-cbb55a1df6e2")
-	)
-	(junction
 		(at 186.69 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2219,12 +2061,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "512ef571-6206-4eec-8161-314d3d31bf6e")
-	)
-	(junction
-		(at 132.08 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5183155f-6628-40aa-936f-8c075fe4d827")
 	)
 	(junction
 		(at 275.59 95.25)
@@ -2269,12 +2105,6 @@
 		(uuid "a159569b-3b3f-4d1b-ab18-4c012a5531cd")
 	)
 	(junction
-		(at 116.84 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a496dbdf-d58b-4784-885b-2b75b1566304")
-	)
-	(junction
 		(at 242.57 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2315,6 +2145,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f57f3fe9-3eb3-45fd-8f3a-afad1de4a6b1")
+	)
+	(no_connect
+		(at 227.33 82.55)
+		(uuid "69130257-e83e-4c45-8e3f-64da84f08f7f")
+	)
+	(no_connect
+		(at 257.81 82.55)
+		(uuid "7320a254-985d-41ec-833f-5a1953e1eefb")
+	)
+	(no_connect
+		(at 68.58 82.55)
+		(uuid "8d8e7f5b-36ce-4cc8-89b6-6740aef9e998")
 	)
 	(wire
 		(pts
@@ -2458,16 +2300,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 132.08 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d8e3aae-b34a-424f-9b4c-d424b865136a")
-	)
-	(wire
-		(pts
 			(xy 229.87 184.15) (xy 240.03 184.15)
 		)
 		(stroke
@@ -2505,26 +2337,6 @@
 			(type default)
 		)
 		(uuid "54d008c1-92fa-4590-a01c-f77e9613cd27")
-	)
-	(wire
-		(pts
-			(xy 132.08 90.17) (xy 132.08 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57fc3bf1-5ef6-419a-a13c-08b9d08f20bd")
-	)
-	(wire
-		(pts
-			(xy 157.48 80.01) (xy 167.64 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58826287-eb34-4fff-a405-e42eaa090d82")
 	)
 	(wire
 		(pts
@@ -2628,16 +2440,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 80.01) (xy 132.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738e3be3-2c92-4d98-970d-8569d4945131")
-	)
-	(wire
-		(pts
 			(xy 186.69 109.22) (xy 186.69 115.57)
 		)
 		(stroke
@@ -2728,7 +2530,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 140.97 80.01)
+			(xy 116.84 80.01) (xy 167.64 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2765,16 +2567,6 @@
 			(type default)
 		)
 		(uuid "8f1446ca-77da-4068-8769-ab0247fc2587")
-	)
-	(wire
-		(pts
-			(xy 157.48 90.17) (xy 157.48 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92cd27f7-f938-4d3e-9c94-71debbea62f4")
 	)
 	(wire
 		(pts
@@ -2838,16 +2630,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 80.01) (xy 157.48 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76b647c-58e2-4413-8665-d15dec3d1a2a")
-	)
-	(wire
-		(pts
 			(xy 199.39 115.57) (xy 186.69 115.57)
 		)
 		(stroke
@@ -2855,16 +2637,6 @@
 			(type default)
 		)
 		(uuid "aa90c201-3076-45b2-b7bf-836a5fa99f3e")
-	)
-	(wire
-		(pts
-			(xy 132.08 99.06) (xy 116.84 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afda7bdf-fbf8-49ae-afa7-e0ddf8d27ed9")
 	)
 	(wire
 		(pts
@@ -2948,16 +2720,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 132.08 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bc6b63-94c0-42f9-b9e3-cdac40f51f45")
-	)
-	(wire
-		(pts
 			(xy 170.18 184.15) (xy 170.18 189.23)
 		)
 		(stroke
@@ -2995,16 +2757,6 @@
 			(type default)
 		)
 		(uuid "d07a5dbe-82de-450d-8e8a-1aece3345bb9")
-	)
-	(wire
-		(pts
-			(xy 157.48 80.01) (xy 157.48 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d215b81f-ea8c-47c0-b441-7f585be29673")
 	)
 	(wire
 		(pts
@@ -3444,119 +3196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 157.48 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c68169b-1036-47d2-94b5-9d0b95f30497")
-		(property "Reference" "C11"
-			(at 160.02 86.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2u2"
-			(at 160.02 88.9062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 157.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 157.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603B225K250NT"
-			(at 157.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
-			(at 157.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "81-GRM155Z71A225KE1D"
-			(at 157.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 161.798 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OC_LCSC" "C99228"
-			(at 157.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12c157d3-83fd-4bd2-9481-0481a2aedb29")
-		)
-		(pin "1"
-			(uuid "47810b7f-e5e9-4a33-979a-837fbb4e3ea8")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VA")
 		(at 240.03 176.53 0)
 		(unit 1)
@@ -3745,7 +3384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS_FILT"
+		(property "Value" "VBUS"
 			(at 120.65 38.1 0)
 			(effects
 				(font
@@ -4893,7 +4532,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "0R"
 			(at 227.33 181.61 90)
 			(effects
 				(font
@@ -5190,119 +4829,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 132.08 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbbd6956-5086-4b1f-bee0-00efd8c00e8c")
-		(property "Reference" "C10"
-			(at 134.62 86.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2u2"
-			(at 134.62 88.9062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603B225K250NT"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "81-GRM155Z71A225KE1D"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 136.398 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OC_LCSC" "C99228"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a42cf95f-6d37-4e17-87bc-5c8135c5b5a7")
-		)
-		(pin "1"
-			(uuid "b61c2625-1d2a-4654-bfad-c84dc68d69ff")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:PMEG4030ER")
 		(at 143.51 54.61 180)
 		(unit 1)
@@ -5489,110 +5015,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 144.78 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0a25038-62da-41dc-b735-b2b31dbd14ec")
-		(property "Reference" "FB1"
-			(at 144.7292 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 144.7292 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 144.78 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 144.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Murata Electronics "
-			(at 144.78 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM18KG121TN1D "
-			(at 144.78 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "81-BLM18KG121TN1D"
-			(at 144.78 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C85831"
-			(at 144.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b51eefe2-b6af-4b92-b675-14aab8bb1ea8")
-		)
-		(pin "2"
-			(uuid "84d98669-eab9-4675-852e-fb14e69057f8")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a391b1ce-a512-4942-9e4e-6ced0d0c3e5f"
-					(reference "FB1")
 					(unit 1)
 				)
 			)

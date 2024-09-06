@@ -1704,152 +1704,6 @@
 				)
 			)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2864,12 +2718,6 @@
 		)
 	)
 	(junction
-		(at 133.35 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "036fce4b-a6ef-4a89-a5c1-b9a43d3547a7")
-	)
-	(junction
 		(at 387.35 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2918,12 +2766,6 @@
 		(uuid "2d81e713-232a-4243-b89a-291d702e0ca3")
 	)
 	(junction
-		(at 165.1 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3245a130-fad8-45dc-a470-140c2ab8d637")
-	)
-	(junction
 		(at 495.3 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2940,6 +2782,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e5268ce-2e6d-4b36-876e-52879f168d78")
+	)
+	(junction
+		(at 104.14 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "508f7bd3-7cda-4d98-9996-b7422349d943")
 	)
 	(junction
 		(at 119.38 323.85)
@@ -2970,12 +2818,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f7528ec-bd3a-43cf-8cb7-3a9925e925fd")
-	)
-	(junction
-		(at 142.24 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "767d4923-afd9-426f-a34f-5edcca4a599b")
 	)
 	(junction
 		(at 387.35 142.24)
@@ -3050,12 +2892,6 @@
 		(uuid "ba8f67a6-048b-4bc5-b067-5299f6b9fd57")
 	)
 	(junction
-		(at 142.24 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba9b17b5-fc9d-455c-b856-fffb8464def8")
-	)
-	(junction
 		(at 497.84 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3108,6 +2944,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffc24148-9a1e-4228-a9e0-772802fc6285")
+	)
+	(no_connect
+		(at 119.38 132.08)
+		(uuid "1a9b98a5-6609-46c7-a256-10feba44c19e")
+	)
+	(no_connect
+		(at 119.38 134.62)
+		(uuid "794f23ae-2d45-4141-9baf-04598152638e")
 	)
 	(wire
 		(pts
@@ -3181,16 +3025,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 165.1 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e06f786-3e20-48d1-b2d8-dfa073ec9c33")
-	)
-	(wire
-		(pts
 			(xy 414.02 139.7) (xy 414.02 135.89)
 		)
 		(stroke
@@ -3241,16 +3075,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 142.24 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148bc916-58cb-4e63-a8d2-0fdb111a497c")
-	)
-	(wire
-		(pts
 			(xy 104.14 142.24) (xy 104.14 146.05)
 		)
 		(stroke
@@ -3281,16 +3105,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 142.24 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df4ac95-e9ed-483c-af6d-d0a6ebce3605")
-	)
-	(wire
-		(pts
 			(xy 497.84 67.31) (xy 524.51 67.31)
 		)
 		(stroke
@@ -3318,6 +3132,16 @@
 			(type default)
 		)
 		(uuid "226431b1-8424-4cc5-9f2f-51f1f64844bd")
+	)
+	(wire
+		(pts
+			(xy 96.52 146.05) (xy 104.14 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e2c5b2-e524-4f3a-8918-3f767abef972")
 	)
 	(wire
 		(pts
@@ -3391,16 +3215,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 66.04) (xy 165.1 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eadd4cc-ec70-447e-8950-22c0c7e854dc")
-	)
-	(wire
-		(pts
 			(xy 387.35 59.69) (xy 387.35 67.31)
 		)
 		(stroke
@@ -3441,16 +3255,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 74.93) (xy 142.24 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322d5600-df43-491c-8574-410540b43671")
-	)
-	(wire
-		(pts
 			(xy 365.76 313.69) (xy 374.65 313.69)
 		)
 		(stroke
@@ -3478,16 +3282,6 @@
 			(type default)
 		)
 		(uuid "3322cced-70b1-462e-a1ae-a23066cfe99e")
-	)
-	(wire
-		(pts
-			(xy 142.24 91.44) (xy 142.24 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "355e70aa-283e-49eb-903d-846af597f71c")
 	)
 	(wire
 		(pts
@@ -3671,16 +3465,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 74.93) (xy 165.1 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5423ee81-4142-40a0-95a0-e7936472c378")
-	)
-	(wire
-		(pts
 			(xy 146.05 148.59) (xy 146.05 152.4)
 		)
 		(stroke
@@ -3708,6 +3492,16 @@
 			(type default)
 		)
 		(uuid "58318ab4-c474-46e8-914c-6c489bdca649")
+	)
+	(wire
+		(pts
+			(xy 96.52 142.24) (xy 96.52 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5972d1b9-c684-40a9-89ee-1de48ea10dcb")
 	)
 	(wire
 		(pts
@@ -3748,16 +3542,6 @@
 			(type default)
 		)
 		(uuid "5b89e571-1cec-4f40-96f6-a9a34ca3256b")
-	)
-	(wire
-		(pts
-			(xy 165.1 74.93) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b9b6f9b-e3a3-4e03-8805-94ebde46e7a2")
 	)
 	(wire
 		(pts
@@ -3958,16 +3742,6 @@
 			(type default)
 		)
 		(uuid "7931fa06-2aca-42ba-9420-ba2029e795a3")
-	)
-	(wire
-		(pts
-			(xy 133.35 92.71) (xy 133.35 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa0aa65-fc92-4e2b-b842-7ec767d297c5")
 	)
 	(wire
 		(pts
@@ -4261,16 +4035,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 74.93) (xy 142.24 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a17e81a6-a70a-4857-aa5f-ddc873fb6c11")
-	)
-	(wire
-		(pts
 			(xy 140.97 148.59) (xy 140.97 142.24)
 		)
 		(stroke
@@ -4428,16 +4192,6 @@
 			(type default)
 		)
 		(uuid "b7f8b248-c430-46f4-ad55-5f25a2c11dbe")
-	)
-	(wire
-		(pts
-			(xy 149.86 74.93) (xy 142.24 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8481c38-2292-41b0-a96d-0277dec9041d")
 	)
 	(wire
 		(pts
@@ -4701,7 +4455,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 100.33) (xy 142.24 101.6)
+			(xy 133.35 92.71) (xy 133.35 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6593,119 +6347,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 165.1 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a88b2f2-2354-4ed6-8386-3d112f974643")
-		(property "Reference" "C55"
-			(at 167.64 87.6362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 167.386 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603B104M250NT"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "963-BAST105SB7104KF"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 169.418 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OC_LCSC" "C336628"
-			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7cdfaffa-68ad-4dfb-b142-de5349da7b16")
-		)
-		(pin "1"
-			(uuid "968d7904-5827-4abb-8b72-2df9566e8b04")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 414.02 119.38 0)
 		(unit 1)
@@ -8163,72 +7804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 165.1 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77de0014-bafa-47cf-9f76-e1e14f9cb0fe")
-		(property "Reference" "#PWR028"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_FILT"
-			(at 165.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72b3035a-0adb-49a6-b9f5-27aaaf72b91c")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 281.94 0)
 		(unit 1)
@@ -9453,7 +9028,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 101.6 0)
+		(at 133.35 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9462,7 +9037,7 @@
 		(fields_autoplaced yes)
 		(uuid "b31cc818-1def-425e-92d3-b0b80051da04")
 		(property "Reference" "#PWR073"
-			(at 142.24 107.95 0)
+			(at 133.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +9046,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 106.68 0)
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,7 +9054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 101.6 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9488,7 +9063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 101.6 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,7 +9072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 101.6 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,119 +9182,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 142.24 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bad1ddef-06ed-49f1-81ae-ead96c571854")
-		(property "Reference" "C54"
-			(at 144.78 87.6362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 144.526 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603B104M250NT"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "FH (Guangdong Fenghua Advanced Tech) "
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "963-BAST105SB7104KF"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 146.558 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OC_LCSC" "C336628"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7aaf59c-f354-4e77-83f8-24d64555aac4")
-		)
-		(pin "1"
-			(uuid "9fff7c53-2d24-4e29-9426-9636c0eab194")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -10199,110 +9661,6 @@
 			(project "Basic_DSP_V0_1"
 				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 153.67 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6e88e25-88d6-4f1e-9ed6-690999a18424")
-		(property "Reference" "FB2"
-			(at 153.6192 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 153.6192 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 153.67 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 153.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Murata Electronics "
-			(at 153.67 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM18KG121TN1D "
-			(at 153.67 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "81-BLM18KG121TN1D"
-			(at 153.67 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C85831"
-			(at 153.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "044beb73-1ba5-491a-9f65-af6ea069cead")
-		)
-		(pin "2"
-			(uuid "1a46bd92-a054-424c-a327-d1f2168a8d0b")
-		)
-		(instances
-			(project "Basic_DSP_V0_1"
-				(path "/b632011b-bebd-450c-b21c-a571983f756a/a6a37837-a89c-47bf-8760-dcad102ca010"
-					(reference "FB2")
 					(unit 1)
 				)
 			)
