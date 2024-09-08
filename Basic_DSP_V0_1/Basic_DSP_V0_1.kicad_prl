@@ -4,12 +4,7 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "+5VA",
-      "GND",
-      "+3V3",
-      "+5V"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
@@ -66,7 +61,7 @@
       34,
       35
     ],
-    "visible_layers": "8001ef0_ffffffff",
+    "visible_layers": "8001ff0_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
