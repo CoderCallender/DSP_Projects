@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.3"
+      "Version": "8.0.5"
     },
-    "CreationDate": "2024-06-18T17:24:28+01:00"
+    "CreationDate": "2024-09-12T11:50:28+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -17,7 +17,7 @@
       "X": 60.5,
       "Y": 100.5
     },
-    "LayerNumber": 4,
+    "LayerNumber": 6,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -26,34 +26,50 @@
       "Layers": "Outer",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "Basic_DSP_V0_1-F_Cu.gbr",
+      "Path": "Basic_DSP_V0_1-TOP_SIG_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Basic_DSP_V0_1-In1_Cu.gbr",
+      "Path": "Basic_DSP_V0_1-GND1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Basic_DSP_V0_1-In2_Cu.gbr",
+      "Path": "Basic_DSP_V0_1-SIG2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Basic_DSP_V0_1-B_Cu.gbr",
-      "FileFunction": "Copper,L4,Bot",
+      "Path": "Basic_DSP_V0_1-POWER_Cu.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Basic_DSP_V0_1-GND2_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Basic_DSP_V0_1-BOTTOM_SIG_Cu.gbr",
+      "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -109,43 +125,67 @@
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "F.Cu"
+      "Name": "TOP_SIG.Cu"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/In1.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+      "Name": "TOP_SIG.Cu/GND1.Cu",
+      "Notes": "Type: dielectric layer 1 (from TOP_SIG.Cu to GND1.Cu)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "In1.Cu"
+      "Name": "GND1.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.24,
+      "Thickness": 0.535,
       "Material": "FR4",
-      "Name": "In1.Cu/In2.Cu",
-      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+      "Name": "GND1.Cu/SIG2.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND1.Cu to SIG2.Cu)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "In2.Cu"
+      "Name": "SIG2.Cu"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "In2.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+      "Name": "SIG2.Cu/POWER.Cu",
+      "Notes": "Type: dielectric layer 3 (from SIG2.Cu to POWER.Cu)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "B.Cu"
+      "Name": "POWER.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "POWER.Cu/GND2.Cu",
+      "Notes": "Type: dielectric layer 4 (from POWER.Cu to GND2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "GND2.Cu/BOTTOM_SIG.Cu",
+      "Notes": "Type: dielectric layer 5 (from GND2.Cu to BOTTOM_SIG.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "BOTTOM_SIG.Cu"
     },
     {
       "Type": "SolderMask",
