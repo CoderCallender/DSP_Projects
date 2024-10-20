@@ -21,7 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#define ARM_MATH_CM4 //required to tell the math library what our device is
+#include "arm_math.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -31,7 +32,8 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define ADC_NUM_CONVERSIONS	1
+#define BUFFER_SIZE 128 //size of our data buffers
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -43,9 +45,24 @@
 ADC_HandleTypeDef hadc1;
 DMA_HandleTypeDef hdma_adc1;
 
+TIM_HandleTypeDef htim3;
+
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+uint16_t adcData[1];	//buffer for the ADC data from the ADC (set to 1 for now)
+
+#define FFT_BUFFER_SIZE	4096
+#define SAMPLE_RATE_HZ	10000
+
+arm_rfft_fast_instance_f32 fftHandler;
+
+float32_t fftBufIn[FFT_BUFFER_SIZE];
+float32_t fftBufOut[FFT_BUFFER_SIZE];
+float32_t magOutBuf[FFT_BUFFER_SIZE];
+
+
+volatile uint8_t g_fftFlag = 0;
 
 /* USER CODE END PV */
 
@@ -55,13 +72,42 @@ static void MX_GPIO_Init(void);
 static void MX_DMA_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_ADC1_Init(void);
+static void MX_TIM3_Init(void);
 /* USER CODE BEGIN PFP */
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+
+//this function is called every time an ADC conversion is complete
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
+{
+	static uint16_t fftIndex = 0;
+
+	//printf("Result = %i\r\n", adcData[0]);
+
+	if(!g_fftFlag)
+	{
+		fftBufIn[fftIndex] = (float32_t)adcData[0];	//fill the fft buffer with ADC data converted to float
+		fftIndex++;
+
+		if(fftIndex == FFT_BUFFER_SIZE)	//the fft input buffer has been filled with data
+		{
+
+		//	HAL_TIM_Base_Stop(&htim3);
+			g_fftFlag = 1;	//set flag to indicate that the fft is ready
+			fftIndex = 0;	//reset index
+		//	printf("ADC = %i\r\n", adcData[0]);
+		//	printf("float ADC = %f\r\n", (float)adcData[0]);
+
+		}
+	}
+
+
+}
 /* USER CODE END 0 */
 
 /**
@@ -96,14 +142,60 @@ int main(void)
   MX_DMA_Init();
   MX_USART2_UART_Init();
   MX_ADC1_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+
+  arm_rfft_fast_init_f32(&fftHandler, FFT_BUFFER_SIZE);
+
+  HAL_ADC_Start_DMA(&hadc1, (uint32_t *) adcData, ADC_NUM_CONVERSIONS); //start the ADC and link it with the DMA
+
+  HAL_TIM_Base_Start(&htim3);
+
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+  float32_t peakVal = 0.0f;
+  uint16_t peakHz = 0;
+  float32_t curVal = 0.0f;
+  int16_t val = 0.0f;
+  float32_t MaxVal = 0.0f;
+  uint16_t MaxIndex = 0;
+
+/*
+  for(int x = 0; x < FFT_BUFFER_SIZE; x++)
+  {
+	  val = 500 * sin((2 * 3.141 * 1250 * x) / SAMPLE_RATE_HZ);	//sine wave for 100Hz
+	  val += 1000 * sin((2 * 3.141 * 700 * x) / SAMPLE_RATE_HZ);	//sine wave for 500Hz
+	//  val += 0.75 * sin(2 * 3.141 * 2000 * x);	//sine wave for 2kHz
+	  fftBufIn[x] = (float32_t)val;
+
+  }
+
+  arm_rfft_fast_f32(&fftHandler, &fftBufIn, &fftBufOut, 0);	//perform FFT and send results to out buffer
+  arm_cmplx_mag_f32(&fftBufOut, &magOutBuf, FFT_BUFFER_SIZE/2);
+  arm_max_f32(&magOutBuf, FFT_BUFFER_SIZE/2, &MaxVal, &MaxIndex);
+  printf("Index = %i\r\n", MaxIndex);
+  printf("Freq = %i\r\n", (uint16_t) (MaxIndex * (SAMPLE_RATE_HZ) / (FFT_BUFFER_SIZE)));
+*/
+
   while (1)
   {
+	  //if(g_fftFlag)
+	  if(g_fftFlag)
+	  {
+
+		  arm_rfft_fast_f32(&fftHandler, &fftBufIn, &fftBufOut, 0);	//perform FFT and send results to out buffer
+		  arm_cmplx_mag_f32(&fftBufOut, &magOutBuf, FFT_BUFFER_SIZE/2);
+		  magOutBuf[0] = 0;	//the first value represents the DC bias. See documentation https://arm-software.github.io/CMSIS-DSP/latest/group__RealFFT.html
+		  arm_max_f32(&magOutBuf, FFT_BUFFER_SIZE/2, &MaxVal, &MaxIndex);
+		  printf("Index = %i\r\n", MaxIndex);
+		  printf("Frequency = %i\r\n", (uint16_t) (MaxIndex * (SAMPLE_RATE_HZ) / (FFT_BUFFER_SIZE)));
+	//	  HAL_TIM_Base_Start(&htim3);
+		  g_fftFlag = 0;
+	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -183,11 +275,11 @@ static void MX_ADC1_Init(void)
   hadc1.Init.ScanConvMode = DISABLE;
   hadc1.Init.ContinuousConvMode = DISABLE;
   hadc1.Init.DiscontinuousConvMode = DISABLE;
-  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
-  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_RISING;
+  hadc1.Init.ExternalTrigConv = ADC_EXTERNALTRIGCONV_T3_TRGO;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
   hadc1.Init.NbrOfConversion = 1;
-  hadc1.Init.DMAContinuousRequests = DISABLE;
+  hadc1.Init.DMAContinuousRequests = ENABLE;
   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   if (HAL_ADC_Init(&hadc1) != HAL_OK)
   {
@@ -198,7 +290,7 @@ static void MX_ADC1_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_0;
   sConfig.Rank = 1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  sConfig.SamplingTime = ADC_SAMPLETIME_144CYCLES;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
@@ -206,6 +298,51 @@ static void MX_ADC1_Init(void)
   /* USER CODE BEGIN ADC1_Init 2 */
 
   /* USER CODE END ADC1_Init 2 */
+
+}
+
+/**
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
+
+  /* USER CODE BEGIN TIM3_Init 0 */
+
+  /* USER CODE END TIM3_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM3_Init 1 */
+
+  /* USER CODE END TIM3_Init 1 */
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 0;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = 8399;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim3, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_UPDATE;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM3_Init 2 */
+
+  /* USER CODE END TIM3_Init 2 */
 
 }
 
