@@ -1,0 +1,15 @@
+/*
+ * 		Driver for the CS4270 Audio codec from Cirrus Logic
+ *
+ *  	Created on: Nov 24, 2024
+ *      Author: chase callender
+ */
+
+
+#include "codec.h"
+
+HAL_StatusTypeDef codec_read_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg, uint16_t *data)
+{
+	//return HAL_I2C_Mem_Read(&hi2c, CODEC_I2C_ADDR, reg, 1, &data, 1, HAL_MAX_DELAY);
+	return HAL_I2C_Mem_Read(&hi2c1, CODEC_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &data, 1, HAL_MAX_DELAY);
+}
