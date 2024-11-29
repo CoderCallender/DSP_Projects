@@ -16,6 +16,53 @@ HAL_StatusTypeDef codec_read_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg
 	return HAL_I2C_Mem_Read(i2c_handle, CODEC_I2C_ADDR, reg_addr, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
 }
 
+
+HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t data)
+{
+	return HAL_I2C_Mem_Write(i2c_handle, CODEC_I2C_ADDR, reg_addr, I2C_MEMADD_SIZE_8BIT, &data, 1, HAL_MAX_DELAY);
+}
+
+//suppper scabby. Needs work but too excited to see hardware work to write this properly
+void codec_configure(I2C_HandleTypeDef *i2c_handle)
+{
+	HAL_StatusTypeDef err;
+	uint8_t read_data;
+
+	err = codec_write_register(i2c_handle, CODEC_I2C_POWER_CTRL_ADDR, 0x00);
+	if(err != HAL_OK)
+	{
+		while(1);
+	}
+
+
+
+
+	//if(codec_write_register(i2c_handle, CODEC_I2C_MODE_CTRL_ADDR, 0x00) != HAL_OK)
+	//{
+	//	while(1);
+	//}
+
+	if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x09) != HAL_OK)
+	{
+		while(1);
+	}
+
+	err = codec_read_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, &read_data);
+
+	err = codec_write_register(i2c_handle, CODEC_I2C_MUTE_CTRL_ADDR, 0x10);
+	if(err != HAL_OK)
+	{
+		while(1);
+	}
+
+	err = codec_write_register(i2c_handle, CODEC_I2C_DACA_VOL_CTRL_ADDR, 0x00);
+	if(err != HAL_OK)
+	{
+		while(1);
+	}
+}
+
+
 //puts the codec into a reset state via hardware pin (nrst)
 void codec_hardware_reset_pin_set(void)
 {

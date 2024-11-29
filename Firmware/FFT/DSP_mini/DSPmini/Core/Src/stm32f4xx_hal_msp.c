@@ -263,7 +263,7 @@ void HAL_I2S_MspInit(I2S_HandleTypeDef* hi2s)
   */
     PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_I2S;
     PeriphClkInitStruct.PLLI2S.PLLI2SN = 192;
-    PeriphClkInitStruct.PLLI2S.PLLI2SR = 2;
+    PeriphClkInitStruct.PLLI2S.PLLI2SR = 4;
     if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
     {
       Error_Handler();
@@ -277,7 +277,7 @@ void HAL_I2S_MspInit(I2S_HandleTypeDef* hi2s)
     /**I2S2 GPIO Configuration
     PC2     ------> I2S2_ext_SD
     PC3     ------> I2S2_SD
-    PB13     ------> I2S2_CK
+    PB10     ------> I2S2_CK
     PC6     ------> I2S2_MCK
     PB9     ------> I2S2_WS
     */
@@ -295,7 +295,7 @@ void HAL_I2S_MspInit(I2S_HandleTypeDef* hi2s)
     GPIO_InitStruct.Alternate = GPIO_AF5_SPI2;
     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_9;
+    GPIO_InitStruct.Pin = GPIO_PIN_10|GPIO_PIN_9;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -365,13 +365,13 @@ void HAL_I2S_MspDeInit(I2S_HandleTypeDef* hi2s)
     /**I2S2 GPIO Configuration
     PC2     ------> I2S2_ext_SD
     PC3     ------> I2S2_SD
-    PB13     ------> I2S2_CK
+    PB10     ------> I2S2_CK
     PC6     ------> I2S2_MCK
     PB9     ------> I2S2_WS
     */
     HAL_GPIO_DeInit(GPIOC, GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_6);
 
-    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_13|GPIO_PIN_9);
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_10|GPIO_PIN_9);
 
     /* I2S2 DMA DeInit */
     HAL_DMA_DeInit(hi2s->hdmatx);

@@ -12,3 +12,1077 @@ Finished building: default.size.stdout
  
 Finished building: DSPmini.list
  
+19:34:20 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  19456	     12	   2796	  22264	   56f8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+19:48:45 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19456	     12	   2796	  22264	   56f8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+19:49:11 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19456	     12	   2796	  22264	   56f8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+19:50:00 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19456	     12	   2796	  22264	   56f8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+19:50:12 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19456	     12	   2796	  22264	   56f8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+20:01:05 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  19484	     12	   2796	  22292	   5714	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:30:18 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/codec.c: In function 'codec_configure':
+../Core/Src/codec.c:38:73: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   38 |         if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x03) != HAL_OK)
+      |                                                                         ^~~~
+      |                                                                         |
+      |                                                                         int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:216:3: warning: implicit declaration of function 'codec_configure' [-Wimplicit-function-declaration]
+  216 |   codec_configure(hi2c1);
+      |   ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21476	     12	   2796	  24284	   5edc	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:32:16 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/codec.c: In function 'codec_configure':
+../Core/Src/codec.c:41:73: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   41 |         if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x03) != HAL_OK)
+      |                                                                         ^~~~
+      |                                                                         |
+      |                                                                         int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:216:19: error: incompatible type for argument 1 of 'codec_configure'
+  216 |   codec_configure(hi2c1);
+      |                   ^~~~~
+      |                   |
+      |                   I2C_HandleTypeDef
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/codec.h:28:41: note: expected 'I2C_HandleTypeDef *' but argument is of type 'I2C_HandleTypeDef'
+   28 | void codec_configure(I2C_HandleTypeDef *i2c_handle);
+      |                      ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+20:32:35 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21432	     12	   2796	  24240	   5eb0	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:35:17 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_configure':
+../Core/Src/codec.c:41:73: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   41 |         if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x03) != HAL_OK)
+      |                                                                         ^~~~
+      |                                                                         |
+      |                                                                         int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21456	     12	   2796	  24264	   5ec8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:39:30 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21456	     12	   2796	  24264	   5ec8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:44:31 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21448	     12	   2796	  24256	   5ec0	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:52:27 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21448	     12	   2796	  24256	   5ec0	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:54:04 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21448	     12	   2796	  24256	   5ec0	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:57:21 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_configure':
+../Core/Src/codec.c:41:73: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   41 |         if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x03) != HAL_OK)
+      |                                                                         ^~~~
+      |                                                                         |
+      |                                                                         int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+../Core/Src/codec.c:46:74: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   46 |         err = codec_write_register(i2c_handle, CODEC_I2C_MUTE_CTRL_ADDR, 0x10);
+      |                                                                          ^~~~
+      |                                                                          |
+      |                                                                          int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21448	     12	   2796	  24256	   5ec0	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+20:58:51 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21448	     12	   2540	  24000	   5dc0	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:01:01 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:48: warning: unused variable 'rightOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                                ^~~~~~~~
+../Core/Src/main.c:132:39: warning: unused variable 'rightIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                       ^~~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21108	     12	   2532	  23652	   5c64	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:01:33 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21108	     12	   2532	  23652	   5c64	DSPmini.elf
+Finished building: default.size.stdout
+ 
+21:02:59 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:48: warning: unused variable 'rightOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                                ^~~~~~~~
+../Core/Src/main.c:132:39: warning: unused variable 'rightIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                       ^~~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21112	     12	   2532	  23656	   5c68	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:16:33 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:48: warning: unused variable 'rightOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                                ^~~~~~~~
+../Core/Src/main.c:132:39: warning: unused variable 'rightIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                       ^~~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21112	     12	   2532	  23656	   5c68	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:21:38 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_configure':
+../Core/Src/codec.c:41:73: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   41 |         if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x03) != HAL_OK)
+      |                                                                         ^~~~
+      |                                                                         |
+      |                                                                         int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+../Core/Src/codec.c:46:74: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   46 |         err = codec_write_register(i2c_handle, CODEC_I2C_MUTE_CTRL_ADDR, 0x10);
+      |                                                                          ^~~~
+      |                                                                          |
+      |                                                                          int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21136	     12	   2532	  23680	   5c80	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:22:44 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21136	     12	   2532	  23680	   5c80	DSPmini.elf
+Finished building: default.size.stdout
+ 
+21:23:04 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21136	     12	   2532	  23680	   5c80	DSPmini.elf
+Finished building: default.size.stdout
+ 
+21:23:17 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21136	     12	   2532	  23680	   5c80	DSPmini.elf
+Finished building: default.size.stdout
+ 
+21:28:59 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21136	     12	   2532	  23680	   5c80	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:36:20 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21136	     12	   2532	  23680	   5c80	DSPmini.elf
+Finished building: default.size.stdout
+ 
+21:39:15 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:48: warning: unused variable 'rightOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                                ^~~~~~~~
+../Core/Src/main.c:132:39: warning: unused variable 'rightIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                       ^~~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21136	     12	   2532	  23680	   5c80	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:42:49 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:139:34: error: invalid type argument of unary '*' (have 'int')
+  139 |                 leftIn = (float) *codecInBuff_p[n+1];
+      |                                  ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:132:48: warning: unused variable 'rightOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                                ^~~~~~~~
+../Core/Src/main.c:132:39: warning: unused variable 'rightIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut, rightIn, rightOut;
+      |                                       ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+21:44:10 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:50: warning: unused variable 'rightOut' [-Wunused-variable]
+  132 |         static int16_t leftIn, leftOut, rightIn, rightOut;
+      |                                                  ^~~~~~~~
+../Core/Src/main.c:132:41: warning: unused variable 'rightIn' [-Wunused-variable]
+  132 |         static int16_t leftIn, leftOut, rightIn, rightOut;
+      |                                         ^~~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21128	     12	   2524	  23664	   5c70	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:44:59 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21132	     12	   2524	  23668	   5c74	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:45:48 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21132	     12	   2524	  23668	   5c74	DSPmini.elf
+Finished building: default.size.stdout
+ 
+21:47:29 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21128	     12	   2524	  23664	   5c70	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+21:48:09 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21128	     12	   2524	  23664	   5c70	DSPmini.elf
+Finished building: default.size.stdout
+ 
+22:33:45 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21128	     12	   2524	  23664	   5c70	DSPmini.elf
+Finished building: default.size.stdout
+ 
+22:36:41 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21132	     12	   2532	  23676	   5c7c	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+22:39:56 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:139:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  139 |                 leftIn = (float *)codecInBuff_p[n];
+      |                          ^
+../Core/Src/main.c:139:26: error: incompatible types when assigning to type 'float' from type 'float *'
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:41:30 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:139:34: error: invalid type argument of unary '*' (have 'int')
+  139 |                 leftIn = (float) *codecInBuff_p[n];
+      |                                  ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:150:17: error: invalid type argument of unary '*' (have 'int')
+  150 |                 *codecOutBuff_p[n] =  (uint16_t)leftOut;
+      |                 ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:44:01 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:138:17: error: invalid type argument of unary '*' (have 'int')
+  138 |                 *codecOutBuff_p[n] = *codecInBuff_p[n];
+      |                 ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:138:38: error: invalid type argument of unary '*' (have 'int')
+  138 |                 *codecOutBuff_p[n] = *codecInBuff_p[n];
+      |                                      ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:44:14 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21044	     12	   2524	  23580	   5c1c	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+22:46:28 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21032	     12	   2524	  23568	   5c10	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+22:49:54 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+22:51:21 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+22:52:12 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+22:53:41 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+22:58:05 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+23:02:12 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+23:13:47 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_configure':
+../Core/Src/codec.c:41:73: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   41 |         if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x13) != HAL_OK)
+      |                                                                         ^~~~
+      |                                                                         |
+      |                                                                         int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+../Core/Src/codec.c:46:74: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   46 |         err = codec_write_register(i2c_handle, CODEC_I2C_MUTE_CTRL_ADDR, 0x10);
+      |                                                                          ^~~~
+      |                                                                          |
+      |                                                                          int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+23:16:50 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/codec.c: In function 'codec_configure':
+../Core/Src/codec.c:41:73: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   41 |         if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x03) != HAL_OK)
+      |                                                                         ^~~~
+      |                                                                         |
+      |                                                                         int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+../Core/Src/codec.c:46:74: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   46 |         err = codec_write_register(i2c_handle, CODEC_I2C_MUTE_CTRL_ADDR, 0x10);
+      |                                                                          ^~~~
+      |                                                                          |
+      |                                                                          int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21064	     12	   2524	  23600	   5c30	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+23:17:18 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21072	     12	   2524	  23608	   5c38	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+23:25:13 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:139:43: warning: implicit declaration of function 'sin' [-Wimplicit-function-declaration]
+  139 |                 codecOutBuff_p[n] = 500 * sin(2 * 3.141 * 1250 * n);
+      |                                           ^~~
+../Core/Src/main.c:25:1: note: include '<math.h>' or provide a declaration of 'sin'
+   24 | #include "codec.h"
+  +++ |+#include <math.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:139:43: warning: incompatible implicit declaration of built-in function 'sin' [-Wbuiltin-declaration-mismatch]
+  139 |                 codecOutBuff_p[n] = 500 * sin(2 * 3.141 * 1250 * n);
+      |                                           ^~~
+../Core/Src/main.c:139:43: note: include '<math.h>' or provide a declaration of 'sin'
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  27608	     12	   2524	  30144	   75c0	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+23:26:27 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:139:44: warning: implicit declaration of function 'sin' [-Wimplicit-function-declaration]
+  139 |                 codecOutBuff_p[n] = 2500 * sin(2 * 3.141 * 1250 * n);
+      |                                            ^~~
+../Core/Src/main.c:25:1: note: include '<math.h>' or provide a declaration of 'sin'
+   24 | #include "codec.h"
+  +++ |+#include <math.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:139:44: warning: incompatible implicit declaration of built-in function 'sin' [-Wbuiltin-declaration-mismatch]
+  139 |                 codecOutBuff_p[n] = 2500 * sin(2 * 3.141 * 1250 * n);
+      |                                            ^~~
+../Core/Src/main.c:139:44: note: include '<math.h>' or provide a declaration of 'sin'
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  27616	     12	   2524	  30152	   75c8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+23:31:29 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'processData':
+../Core/Src/main.c:132:30: warning: unused variable 'leftOut' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                              ^~~~~~~
+../Core/Src/main.c:132:22: warning: unused variable 'leftIn' [-Wunused-variable]
+  132 |         static float leftIn, leftOut; //, rightIn, rightOut;
+      |                      ^~~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+08:40:00 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+08:40:25 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+08:41:28 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+08:46:42 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21048	     12	   2524	  23584	   5c20	DSPmini.elf
+Finished building: default.size.stdout
+ 
+08:52:12 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_configure':
+../Core/Src/codec.c:45:73: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   45 |         if(codec_write_register(i2c_handle, CODEC_I2C_ADCDAC_CTRL_ADDR, 0x03) != HAL_OK)
+      |                                                                         ^~~~
+      |                                                                         |
+      |                                                                         int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+../Core/Src/codec.c:50:74: warning: passing argument 3 of 'codec_write_register' makes pointer from integer without a cast [-Wint-conversion]
+   50 |         err = codec_write_register(i2c_handle, CODEC_I2C_MUTE_CTRL_ADDR, 0x10);
+      |                                                                          ^~~~
+      |                                                                          |
+      |                                                                          int
+../Core/Src/codec.c:20:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+   20 | HAL_StatusTypeDef codec_write_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data)
+      |                                                                                         ~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  22892	     12	   2524	  25428	   6354	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+08:54:04 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_write_register':
+../Core/Src/codec.c:22:94: warning: passing argument 5 of 'HAL_I2C_Mem_Write' makes pointer from integer without a cast [-Wint-conversion]
+   22 |         return HAL_I2C_Mem_Write(i2c_handle, CODEC_I2C_ADDR, reg_addr, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
+      |                                                                                              ^~~~
+      |                                                                                              |
+      |                                                                                              uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:363,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/codec.h:11,
+                 from ../Core/Src/codec.c:9:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h:570:134: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  570 | HAL_StatusTypeDef HAL_I2C_Mem_Write(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                                                                             ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  22896	     12	   2524	  25432	   6358	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+08:58:42 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_write_register':
+../Core/Src/codec.c:22:94: warning: passing argument 5 of 'HAL_I2C_Mem_Write' makes pointer from integer without a cast [-Wint-conversion]
+   22 |         return HAL_I2C_Mem_Write(i2c_handle, CODEC_I2C_ADDR, reg_addr, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
+      |                                                                                              ^~~~
+      |                                                                                              |
+      |                                                                                              uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:363,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/codec.h:11,
+                 from ../Core/Src/codec.c:9:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h:570:134: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  570 | HAL_StatusTypeDef HAL_I2C_Mem_Write(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                                                                             ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  22896	     12	   2524	  25432	   6358	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+09:01:27 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_write_register':
+../Core/Src/codec.c:22:94: warning: passing argument 5 of 'HAL_I2C_Mem_Write' makes pointer from integer without a cast [-Wint-conversion]
+   22 |         return HAL_I2C_Mem_Write(i2c_handle, CODEC_I2C_ADDR, reg_addr, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
+      |                                                                                              ^~~~
+      |                                                                                              |
+      |                                                                                              uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:363,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/codec.h:11,
+                 from ../Core/Src/codec.c:9:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h:570:134: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  570 | HAL_StatusTypeDef HAL_I2C_Mem_Write(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                                                                             ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  22896	     12	   2524	  25432	   6358	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+09:01:59 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+../Core/Src/codec.c: In function 'codec_write_register':
+../Core/Src/codec.c:22:94: warning: passing argument 5 of 'HAL_I2C_Mem_Write' makes pointer from integer without a cast [-Wint-conversion]
+   22 |         return HAL_I2C_Mem_Write(i2c_handle, CODEC_I2C_ADDR, reg_addr, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
+      |                                                                                              ^~~~
+      |                                                                                              |
+      |                                                                                              uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:363,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/codec.h:11,
+                 from ../Core/Src/codec.c:9:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h:570:134: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  570 | HAL_StatusTypeDef HAL_I2C_Mem_Write(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                                                                             ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  22896	     12	   2524	  25432	   6358	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+09:03:14 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  22892	     12	   2524	  25428	   6354	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+09:03:44 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/codec.d" -MT"Core/Src/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/codec.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  22892	     12	   2524	  25428	   6354	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+09:05:54 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22892	     12	   2524	  25428	   6354	DSPmini.elf
+Finished building: default.size.stdout
+ 

@@ -1,3 +1,7 @@
 adcData
 pots
 codec_data
+codecInData
+leftIn
+codecOutData
+codecOutBuff_p

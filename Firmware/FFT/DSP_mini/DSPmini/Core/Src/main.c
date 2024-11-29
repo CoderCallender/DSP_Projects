@@ -32,7 +32,7 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define NUM_ADC_CHANNELS 	6
-#define AUDIO_BUFFER_SIZE	128
+#define AUDIO_BUFFER_SIZE	64
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -60,13 +60,13 @@ TIM_HandleTypeDef htim3;
 
 uint16_t adcData[NUM_ADC_CHANNELS];	//buffer for the ADC data from the ADC used to read the potentiometers
 
-uint16_t codecInData[AUDIO_BUFFER_SIZE];	//buffers to deal with the in/out of the codec
-uint16_t codecOutData[AUDIO_BUFFER_SIZE];
+static int16_t codecInData[AUDIO_BUFFER_SIZE];	//buffers to deal with the in/out of the codec
+static int16_t codecOutData[AUDIO_BUFFER_SIZE];
 
-uint8_t audioDataReadyFlag = 0;
+volatile uint8_t audioDataReadyFlag = 0;
 
-static volatile uint16_t *codecInBuff_p;	//pointers to help handle the double buffering (read half and process the other half at the same time) of the CODEC data
-static volatile uint16_t *codecOutBuff_p;
+static volatile int16_t *codecInBuff_p;	//pointers to help handle the double buffering (read half and process the other half at the same time) of the CODEC data
+static volatile int16_t *codecOutBuff_p;
 //structure to hold all the ADC values from the pots
 struct potentiometers
 {
@@ -129,14 +129,17 @@ void HAL_I2SEx_TxRxCpltCallback(I2S_HandleTypeDef *hi2s)
 
 void processData(void)
 {
-	static float leftIn, leftOut, rightIn, rightOut;
+	static float leftIn, leftOut; //, rightIn, rightOut;
 
 
-	for(uint8_t n = 0; n < (AUDIO_BUFFER_SIZE/2) - 1; n += 2)
+	for(uint8_t n = 0; n < (AUDIO_BUFFER_SIZE/2) - 1; n++)
 	{
 
-		//left channel data
-		leftIn = (float)codecInBuff_p[n];
+		codecOutBuff_p[n] = codecInBuff_p[n];
+	//	codecOutBuff_p[n] = 2500 * sin(2 * 3.141 * 1250 * n);
+
+	/*	//left channel data
+		leftIn = (float) *codecInBuff_p[n];
 
 		if(leftIn > 1.0f)
 		{
@@ -147,11 +150,11 @@ void processData(void)
 		leftOut = leftIn;
 
 		//convert back to signed int and transfer to DAC (via pointer)
-		codecOutBuff_p[n] = (int16_t) leftOut;
-
+		*codecOutBuff_p[n] =  (uint16_t)leftOut;
+*/
 		//////////////////////
 		//right channel data
-		rightIn = (float)codecInBuff_p[n];
+	/*	rightIn = (float)codecInBuff_p[n];
 
 		if(rightIn > 1.0f)
 		{
@@ -163,10 +166,10 @@ void processData(void)
 
 		//convert back to signed int and transfer to DAC (via pointer)
 		codecOutBuff_p[n] = (int16_t) rightOut;
-
+*/
 	}
 
-	audioDataReadyFlag = 1;
+	audioDataReadyFlag = 0;
 }
 
 /* USER CODE END 0 */
@@ -209,9 +212,11 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   HAL_ADC_Start_DMA(&hadc1, (uint32_t *) adcData, NUM_ADC_CHANNELS); 	//start the ADC and link it with the DMA
-  HAL_TIM_Base_Start(&htim2); 											//start timer 2 which triggers the ADC
+ // HAL_TIM_Base_Start(&htim2); 											//start timer 2 which triggers the ADC
   HAL_I2SEx_TransmitReceive_DMA(&hi2s2, (uint16_t *) codecOutData, (uint16_t *) codecInData, AUDIO_BUFFER_SIZE);
-
+  codec_hardware_reset_pin_clear();
+  HAL_Delay(50);
+  codec_configure(&hi2c1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -251,14 +256,6 @@ void SystemClock_Config(void)
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
 
-  /** Macro to configure the PLL multiplication factor
-  */
-  __HAL_RCC_PLL_PLLM_CONFIG(16);
-
-  /** Macro to configure the PLL clock source
-  */
-  __HAL_RCC_PLL_PLLSOURCE_CONFIG(RCC_PLLSOURCE_HSI);
-
   /** Configure the main internal regulator output voltage
   */
   __HAL_RCC_PWR_CLK_ENABLE();
@@ -270,8 +267,12 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = 16;
+  RCC_OscInitStruct.PLL.PLLN = 192;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLQ = 4;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -281,12 +282,12 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV8;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_3) != HAL_OK)
   {
     Error_Handler();
   }

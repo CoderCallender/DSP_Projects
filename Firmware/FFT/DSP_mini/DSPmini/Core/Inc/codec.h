@@ -25,6 +25,7 @@
 #define CODEC_I2C_DACB_VOL_CTRL_ADDR 	0x08
 
 HAL_StatusTypeDef codec_read_register(I2C_HandleTypeDef *i2c_handle, uint8_t reg_addr, uint8_t *data);
+void codec_configure(I2C_HandleTypeDef *i2c_handle);
 void codec_hardware_reset_pin_set(void);
 void codec_hardware_reset_pin_clear(void);
 

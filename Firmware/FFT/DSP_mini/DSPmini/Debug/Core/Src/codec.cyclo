@@ -1,3 +1,5 @@
 ../Core/Src/codec.c:14:19:codec_read_register	1
-../Core/Src/codec.c:20:6:codec_hardware_reset_pin_set	1
-../Core/Src/codec.c:26:6:codec_hardware_reset_pin_clear	1
+../Core/Src/codec.c:20:19:codec_write_register	1
+../Core/Src/codec.c:26:6:codec_configure	5
+../Core/Src/codec.c:67:6:codec_hardware_reset_pin_set	1
+../Core/Src/codec.c:73:6:codec_hardware_reset_pin_clear	1
