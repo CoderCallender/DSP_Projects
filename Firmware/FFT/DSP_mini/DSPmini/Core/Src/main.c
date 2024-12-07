@@ -22,6 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "codec.h"
+#include "IIR_PeakingFilter.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -33,6 +34,16 @@
 /* USER CODE BEGIN PD */
 #define NUM_ADC_CHANNELS 	6
 #define AUDIO_BUFFER_SIZE	64
+
+#define SAMPLE_RATE_HZ		46875.0f	//will change when osc is fitted to board
+
+#define UINT16_TO_FLOAT 0.00001525878f
+#define INT16_TO_FLOAT 0.00003051757f
+#define FLOAT_TO_INT16 32768.0f
+
+#define BASS_EQ_FREQ	150.0f
+#define MID_EQ_FREQ		450.0f
+#define HIGH_EQ_FREQ	5000.0f
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -64,6 +75,7 @@ static int16_t codecInData[AUDIO_BUFFER_SIZE];	//buffers to deal with the in/out
 static int16_t codecOutData[AUDIO_BUFFER_SIZE];
 
 volatile uint8_t audioDataReadyFlag = 0;
+volatile uint8_t audio_update_lockout_flag = 0;
 
 static volatile int16_t *codecInBuff_p;	//pointers to help handle the double buffering (read half and process the other half at the same time) of the CODEC data
 static volatile int16_t *codecOutBuff_p;
@@ -77,6 +89,10 @@ struct potentiometers
 	uint16_t pot5;
 	uint16_t pot6;
 }pots;
+
+IIR_peakingFilter bass_filter;
+IIR_peakingFilter mid_filter;
+IIR_peakingFilter high_filter;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -89,7 +105,7 @@ static void MX_I2S2_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_TIM3_Init(void);
 /* USER CODE BEGIN PFP */
-
+void update_filter_settings(uint16_t q_pot, uint16_t boostCut_pot, IIR_peakingFilter *filt, float centre_freq);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -107,6 +123,27 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 	pots.pot4 = adcData[5];
 	pots.pot5 = adcData[2];
 	pots.pot6 = adcData[3];
+
+	update_filter_settings(pots.pot1, pots.pot2, &bass_filter, BASS_EQ_FREQ);
+	update_filter_settings(pots.pot3, pots.pot4, &mid_filter, MID_EQ_FREQ);
+	update_filter_settings(pots.pot5, pots.pot6, &high_filter, HIGH_EQ_FREQ);
+}
+
+void update_filter_settings(uint16_t q_pot, uint16_t boostCut_pot, IIR_peakingFilter *filt, float centre_freq)
+{
+	//convert pot values to something in range for our filters
+	//max ADC = 4096
+	//205 (approx) for a 20 bit scaling
+	float Q, boostCut;
+
+	Q = q_pot / 205;
+	boostCut = boostCut_pot / 205;
+
+	if(!audio_update_lockout_flag)
+	{
+		IIR_peakingFilter_setParams(filt, centre_freq, Q, boostCut);
+	}
+
 }
 
 //function is called when I2S data is half complete, so align the pointers to the first half of the buffers
@@ -131,15 +168,14 @@ void processData(void)
 {
 	static float leftIn, leftOut; //, rightIn, rightOut;
 
+	audio_update_lockout_flag = 1;
 
-	for(uint8_t n = 0; n < (AUDIO_BUFFER_SIZE/2) - 1; n++)
+	for(uint8_t n = 0; n < (AUDIO_BUFFER_SIZE/2) - 1; n += 2)
 	{
 
-		codecOutBuff_p[n] = codecInBuff_p[n];
-	//	codecOutBuff_p[n] = 2500 * sin(2 * 3.141 * 1250 * n);
-
-	/*	//left channel data
-		leftIn = (float) *codecInBuff_p[n];
+	//	codecOutBuff_p[n] = codecInBuff_p[n];	//debug
+		//left channel data
+		leftIn = INT16_TO_FLOAT * ((float) codecInBuff_p[n]);
 
 		if(leftIn > 1.0f)
 		{
@@ -147,14 +183,17 @@ void processData(void)
 		}
 
 		//modify the data here
-		leftOut = leftIn;
+		leftOut = IIR_peakingFilter_update(&bass_filter, leftIn);
+		leftOut = IIR_peakingFilter_update(&mid_filter, leftOut);
+	//	leftOut = IIR_peakingFilter_update(&high_filter, leftOut);
+		//leftOut = leftIn; //debug
 
 		//convert back to signed int and transfer to DAC (via pointer)
-		*codecOutBuff_p[n] =  (uint16_t)leftOut;
-*/
+		codecOutBuff_p[n] =  (int16_t) (FLOAT_TO_INT16 * leftOut);
+
 		//////////////////////
-		//right channel data
-	/*	rightIn = (float)codecInBuff_p[n];
+		//right channel data (not used in current hardware)
+	/*	rightIn = (float)codecInBuff_p[n+1];
 
 		if(rightIn > 1.0f)
 		{
@@ -169,6 +208,7 @@ void processData(void)
 */
 	}
 
+	audio_update_lockout_flag = 0;
 	audioDataReadyFlag = 0;
 }
 
@@ -212,11 +252,14 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   HAL_ADC_Start_DMA(&hadc1, (uint32_t *) adcData, NUM_ADC_CHANNELS); 	//start the ADC and link it with the DMA
- // HAL_TIM_Base_Start(&htim2); 											//start timer 2 which triggers the ADC
+  HAL_TIM_Base_Start(&htim2); 											//start timer 2 which triggers the ADC
   HAL_I2SEx_TransmitReceive_DMA(&hi2s2, (uint16_t *) codecOutData, (uint16_t *) codecInData, AUDIO_BUFFER_SIZE);
   codec_hardware_reset_pin_clear();
   HAL_Delay(50);
   codec_configure(&hi2c1);
+  IIR_peakingFilter_init(&bass_filter, SAMPLE_RATE_HZ);		//initialise bass frequency peaking filter
+  IIR_peakingFilter_init(&mid_filter, SAMPLE_RATE_HZ);
+  IIR_peakingFilter_init(&high_filter, SAMPLE_RATE_HZ);
   /* USER CODE END 2 */
 
   /* Infinite loop */
