@@ -42,8 +42,8 @@
 #define FLOAT_TO_INT16 32768.0f
 
 #define BASS_EQ_FREQ	150.0f
-#define MID_EQ_FREQ		450.0f
-#define HIGH_EQ_FREQ	5000.0f
+#define MID_EQ_FREQ		1000.0f
+#define HIGH_EQ_FREQ	6000.0f
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -124,9 +124,9 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 	pots.pot5 = adcData[2];
 	pots.pot6 = adcData[3];
 
-	update_filter_settings(pots.pot1, pots.pot2, &bass_filter, BASS_EQ_FREQ);
-	update_filter_settings(pots.pot3, pots.pot4, &mid_filter, MID_EQ_FREQ);
-	update_filter_settings(pots.pot5, pots.pot6, &high_filter, HIGH_EQ_FREQ);
+	update_filter_settings(50, pots.pot2, &bass_filter, BASS_EQ_FREQ);
+	update_filter_settings(500, pots.pot4, &mid_filter, MID_EQ_FREQ);
+	update_filter_settings(5500, pots.pot6, &high_filter, HIGH_EQ_FREQ);
 }
 
 void update_filter_settings(uint16_t q_pot, uint16_t boostCut_pot, IIR_peakingFilter *filt, float centre_freq)
@@ -136,12 +136,12 @@ void update_filter_settings(uint16_t q_pot, uint16_t boostCut_pot, IIR_peakingFi
 	//205 (approx) for a 20 bit scaling
 	float Q, boostCut;
 
-	Q = q_pot / 205;
-	boostCut = boostCut_pot / 205;
+	//Q = q_pot / 205;
+	boostCut = (float)boostCut_pot / 2048.0;
 
 	if(!audio_update_lockout_flag)
 	{
-		IIR_peakingFilter_setParams(filt, centre_freq, Q, boostCut);
+		IIR_peakingFilter_setParams(filt, centre_freq, (float)q_pot, boostCut);
 	}
 
 }
@@ -185,7 +185,7 @@ void processData(void)
 		//modify the data here
 		leftOut = IIR_peakingFilter_update(&bass_filter, leftIn);
 		leftOut = IIR_peakingFilter_update(&mid_filter, leftOut);
-	//	leftOut = IIR_peakingFilter_update(&high_filter, leftOut);
+		leftOut = IIR_peakingFilter_update(&high_filter, leftOut);
 		//leftOut = leftIn; //debug
 
 		//convert back to signed int and transfer to DAC (via pointer)

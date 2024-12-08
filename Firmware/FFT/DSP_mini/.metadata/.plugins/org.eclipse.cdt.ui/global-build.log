@@ -131,3 +131,476 @@ Finished building: default.size.stdout
  
 Finished building: DSPmini.list
  
+18:01:44 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29568	     12	   2684	  32264	   7e08	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:14:05 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:14:47 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:15:05 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-size  DSPmini.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+18:15:34 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:16:06 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:16:46 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:19:45 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:20:46 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:22:03 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:23:31 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29384	     12	   2684	  32080	   7d50	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:24:44 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:27:09 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29384	     12	   2684	  32080	   7d50	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:27:58 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29384	     12	   2684	  32080	   7d50	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:29:17 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29384	     12	   2684	  32080	   7d50	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:30:54 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:31:58 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29376	     12	   2684	  32072	   7d48	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:35:40 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/IIR_PeakingFilter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/IIR_PeakingFilter.d" -MT"Core/Src/IIR_PeakingFilter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/IIR_PeakingFilter.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:144:17: warning: 'Q' may be used uninitialized [-Wmaybe-uninitialized]
+  144 |                 IIR_peakingFilter_setParams(filt, centre_freq, Q, boostCut);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:137:15: note: 'Q' was declared here
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29480	     12	   2684	  32176	   7db0	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:37:11 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:144:17: warning: 'Q' may be used uninitialized [-Wmaybe-uninitialized]
+  144 |                 IIR_peakingFilter_setParams(filt, centre_freq, Q, boostCut);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:137:15: note: 'Q' was declared here
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29488	     12	   2684	  32184	   7db8	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:37:39 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29492	     12	   2684	  32188	   7dbc	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:39:32 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29608	     12	   2684	  32304	   7e30	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:44:00 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29608	     12	   2684	  32304	   7e30	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:49:36 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29608	     12	   2684	  32304	   7e30	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+18:51:22 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29608	     12	   2684	  32304	   7e30	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+19:05:30 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29608	     12	   2684	  32304	   7e30	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+19:06:39 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29612	     12	   2684	  32308	   7e34	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+19:09:14 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29612	     12	   2684	  32308	   7e34	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+19:15:48 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29612	     12	   2684	  32308	   7e34	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+19:17:15 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29612	     12	   2684	  32308	   7e34	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 
+19:48:31 **** Incremental Build of configuration Debug for project DSPmini ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F415xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'update_filter_settings':
+../Core/Src/main.c:137:15: warning: unused variable 'Q' [-Wunused-variable]
+  137 |         float Q, boostCut;
+      |               ^
+arm-none-eabi-gcc -o "DSPmini.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chase\Desktop\DSP_PROJECT\DSP_Projects\Firmware\FFT\DSP_mini\DSPmini\STM32F415RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DSPmini.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DSPmini.elf
+ 
+arm-none-eabi-size  DSPmini.elf 
+arm-none-eabi-objdump -h -S DSPmini.elf  > "DSPmini.list"
+   text	   data	    bss	    dec	    hex	filename
+  29612	     12	   2684	  32308	   7e34	DSPmini.elf
+Finished building: default.size.stdout
+ 
+Finished building: DSPmini.list
+ 

@@ -26,8 +26,8 @@ void IIR_peakingFilter_init(IIR_peakingFilter *filt, float sampleRate_Hz)
 	//set all parameters for an all pass filter
 	IIR_peakingFilter_setParams(filt, 1.0f, 0.0f, 1.0f);
 
-	//temporary test code, set a bass boost
-	//IIR_peakingFilter_setParams(filt, 250.0f, 5.0f, 20.0f);
+	//temporary test code, set a bass boost (boostcut max = 2.0)
+	//IIR_peakingFilter_setParams(filt, 8000.0f, 50.0f, 2.0f);
 }
 
 
